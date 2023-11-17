@@ -295,7 +295,7 @@
             this.panelborderg.Size = new System.Drawing.Size(1016, 2);
             this.panelborderg.TabIndex = 4;
             // 
-            // Form1
+            // DashboardPrzewoznik
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -306,7 +306,8 @@
             this.Controls.Add(this.panelTytul);
             this.Controls.Add(this.panelMenu);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "DashboardPrzewoznik";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Przewoźnik";
             this.panelMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
