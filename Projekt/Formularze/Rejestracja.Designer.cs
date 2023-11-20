@@ -66,7 +66,7 @@
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.btnPowrot);
             this.panel1.Location = new System.Drawing.Point(-104, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(840, 214);
             this.panel1.TabIndex = 13;
@@ -88,7 +88,7 @@
             this.pictureBox2.BackgroundImage = global::Projekt.Properties.Resources.OIG_wQoiCHCAr;
             this.pictureBox2.Image = global::Projekt.Properties.Resources.OIG_wQoiCHCAr;
             this.pictureBox2.Location = new System.Drawing.Point(325, -2);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(192, 182);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -103,7 +103,7 @@
             this.btnPowrot.IconColor = System.Drawing.Color.Black;
             this.btnPowrot.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnPowrot.Location = new System.Drawing.Point(105, 2);
-            this.btnPowrot.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPowrot.Margin = new System.Windows.Forms.Padding(4);
             this.btnPowrot.Name = "btnPowrot";
             this.btnPowrot.Size = new System.Drawing.Size(75, 59);
             this.btnPowrot.TabIndex = 11;
@@ -207,7 +207,7 @@
             this.panel2.Controls.Add(this.lbEmail);
             this.panel2.Controls.Add(this.tbEmail);
             this.panel2.Location = new System.Drawing.Point(-104, 212);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(840, 830);
             this.panel2.TabIndex = 14;
@@ -257,7 +257,7 @@
             "Użytkownik",
             "Przewoźnik"});
             this.cbRodzaj.Location = new System.Drawing.Point(227, 384);
-            this.cbRodzaj.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbRodzaj.Margin = new System.Windows.Forms.Padding(4);
             this.cbRodzaj.Name = "cbRodzaj";
             this.cbRodzaj.Size = new System.Drawing.Size(367, 36);
             this.cbRodzaj.TabIndex = 14;
@@ -343,7 +343,6 @@
             this.tbOdpowiedz.Location = new System.Drawing.Point(224, 561);
             this.tbOdpowiedz.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbOdpowiedz.Name = "tbOdpowiedz";
-            this.tbOdpowiedz.PasswordChar = '·';
             this.tbOdpowiedz.Size = new System.Drawing.Size(368, 35);
             this.tbOdpowiedz.TabIndex = 4;
             // 
@@ -389,7 +388,7 @@
             this.Controls.Add(this.panel2);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Rejestracja";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rejestracja";
