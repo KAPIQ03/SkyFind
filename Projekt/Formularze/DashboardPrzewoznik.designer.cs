@@ -70,23 +70,23 @@
             // Usunl
             // 
             this.Usunl.BackColor = System.Drawing.Color.White;
-            this.Usunl.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Usunl.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.Usunl.FlatAppearance.BorderSize = 0;
             this.Usunl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Usunl.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Usunl.ForeColor = System.Drawing.Color.Black;
-            this.Usunl.IconChar = FontAwesome.Sharp.IconChar.PlaneCircleXmark;
+            this.Usunl.IconChar = FontAwesome.Sharp.IconChar.User;
             this.Usunl.IconColor = System.Drawing.Color.Orange;
             this.Usunl.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.Usunl.IconSize = 32;
             this.Usunl.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Usunl.Location = new System.Drawing.Point(0, 468);
+            this.Usunl.Location = new System.Drawing.Point(0, 616);
             this.Usunl.Margin = new System.Windows.Forms.Padding(4);
             this.Usunl.Name = "Usunl";
             this.Usunl.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.Usunl.Size = new System.Drawing.Size(293, 74);
             this.Usunl.TabIndex = 5;
-            this.Usunl.Text = "Usuń lot";
+            this.Usunl.Text = "Konto";
             this.Usunl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Usunl.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Usunl.UseVisualStyleBackColor = false;
