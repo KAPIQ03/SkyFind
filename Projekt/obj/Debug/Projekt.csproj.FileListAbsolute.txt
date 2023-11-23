@@ -72,3 +72,5 @@ D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Memory.xml
 D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Numerics.Vectors.xml
 D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.csproj.CopyComplete
+D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.KodZapHaslo.resources
+D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.ResetHasla.resources

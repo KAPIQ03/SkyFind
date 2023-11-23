@@ -94,6 +94,12 @@
     <Compile Include="Formularze\Logowanie.Designer.cs">
       <DependentUpon>Logowanie.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularze\KodZapHaslo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularze\KodZapHaslo.Designer.cs">
+      <DependentUpon>KodZapHaslo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Formularze\Rejestracja.cs">
@@ -126,11 +132,17 @@
     <Compile Include="Formularze\FormularzePrzewoznik\Lista_lotow.Designer.cs">
       <DependentUpon>Lista_lotow.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularze\Usun_lot.cs">
+    <Compile Include="Formularze\FormularzePrzewoznik\Usun_lot.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularze\Usun_lot.Designer.cs">
+    <Compile Include="Formularze\FormularzePrzewoznik\Usun_lot.Designer.cs">
       <DependentUpon>Usun_lot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularze\ResetHasla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularze\ResetHasla.Designer.cs">
+      <DependentUpon>ResetHasla.cs</DependentUpon>
     </Compile>
     <Compile Include="SkyFind.cs">
       <SubType>Form</SubType>
@@ -149,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularze\Logowanie.resx">
       <DependentUpon>Logowanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularze\KodZapHaslo.resx">
+      <DependentUpon>KodZapHaslo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -175,8 +190,11 @@
     <EmbeddedResource Include="Formularze\FormularzePrzewoznik\Lista_lotow.resx">
       <DependentUpon>Lista_lotow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularze\Usun_lot.resx">
+    <EmbeddedResource Include="Formularze\FormularzePrzewoznik\Usun_lot.resx">
       <DependentUpon>Usun_lot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularze\ResetHasla.resx">
+      <DependentUpon>ResetHasla.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SkyFind.resx">
       <DependentUpon>SkyFind.cs</DependentUpon>

@@ -36,15 +36,15 @@ namespace Projekt
             graphic.DrawString(number.ToString(), font, Brushes.Black, new Point(100, 0));
             pbCapcha.Image = image;
         }
-        public bool IsPasswordValid(string password,string passwordReturn)
+        public bool IsPasswordValid(string password,string passwordRepeat)
         {
             //sprawdzanie czy hasła nie są puste
-            if(password == "" || passwordReturn == "") {
+            if(password == "" || passwordRepeat == "") {
                 lbVHaslo.Text = "Te pola są wymagane";
                 return false;
             }
             //sprawdzanie czy hasła są takie same
-            if (password != passwordReturn)
+            if (password != passwordRepeat)
             {
                 lbVHaslo.Text = "Hasła nie są takie same";
                 return false;
@@ -182,6 +182,21 @@ namespace Projekt
         private void btnRefresh_Click(object sender, EventArgs e)
         {
             LoadCaptchaImage();
+        }
+
+        private void lbInfo_MouseHover(object sender, MouseEventArgs e)
+        {
+            
+        }
+
+        private void btnInfo_MouseEnter(object sender, EventArgs e)
+        {
+            lbInfo.Visible = true;
+        }
+
+        private void btnInfo_MouseLeave(object sender, EventArgs e)
+        {
+            lbInfo.Visible = false;
         }
     }
 }
