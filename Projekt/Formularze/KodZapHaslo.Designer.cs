@@ -32,11 +32,11 @@
             this.lbEmail = new System.Windows.Forms.Label();
             this.btnDalej = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lbVEmail = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.btnPowrot = new FontAwesome.Sharp.IconButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.lbVEmail = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -94,19 +94,6 @@
             this.panel2.Size = new System.Drawing.Size(632, 346);
             this.panel2.TabIndex = 16;
             // 
-            // lbVEmail
-            // 
-            this.lbVEmail.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.lbVEmail.AutoSize = true;
-            this.lbVEmail.Font = new System.Drawing.Font("Lato", 9F);
-            this.lbVEmail.ForeColor = System.Drawing.Color.Red;
-            this.lbVEmail.Location = new System.Drawing.Point(207, 212);
-            this.lbVEmail.Name = "lbVEmail";
-            this.lbVEmail.Size = new System.Drawing.Size(215, 18);
-            this.lbVEmail.TabIndex = 10;
-            this.lbVEmail.Text = "Podany kod jest nie prawidłowy";
-            this.lbVEmail.Visible = false;
-            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.label3);
@@ -156,6 +143,19 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 16;
             this.pictureBox2.TabStop = false;
+            // 
+            // lbVEmail
+            // 
+            this.lbVEmail.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.lbVEmail.Font = new System.Drawing.Font("Lato", 9F);
+            this.lbVEmail.ForeColor = System.Drawing.Color.Red;
+            this.lbVEmail.Location = new System.Drawing.Point(123, 212);
+            this.lbVEmail.Name = "lbVEmail";
+            this.lbVEmail.Size = new System.Drawing.Size(367, 18);
+            this.lbVEmail.TabIndex = 10;
+            this.lbVEmail.Text = "Podany kod jest nie prawidłowy";
+            this.lbVEmail.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbVEmail.Visible = false;
             // 
             // KodZapHaslo
             // 

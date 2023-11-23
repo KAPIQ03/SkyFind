@@ -157,14 +157,14 @@
             // lbVHaslo
             // 
             this.lbVHaslo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.lbVHaslo.AutoSize = true;
             this.lbVHaslo.Font = new System.Drawing.Font("Lato", 9F);
             this.lbVHaslo.ForeColor = System.Drawing.Color.Red;
-            this.lbVHaslo.Location = new System.Drawing.Point(223, 292);
+            this.lbVHaslo.Location = new System.Drawing.Point(124, 292);
             this.lbVHaslo.Name = "lbVHaslo";
-            this.lbVHaslo.Size = new System.Drawing.Size(156, 18);
+            this.lbVHaslo.Size = new System.Drawing.Size(368, 18);
             this.lbVHaslo.TabIndex = 10;
             this.lbVHaslo.Text = "To pole jest wymagane";
+            this.lbVHaslo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lbVHaslo.Visible = false;
             // 
             // ResetHasla

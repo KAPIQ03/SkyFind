@@ -39,6 +39,8 @@
             this.lbHaslo = new System.Windows.Forms.Label();
             this.tbHaslo = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lbInfo = new System.Windows.Forms.Label();
+            this.btnInfo = new FontAwesome.Sharp.IconButton();
             this.btnRefresh = new FontAwesome.Sharp.IconButton();
             this.pbCapcha = new System.Windows.Forms.PictureBox();
             this.lbRodzaj = new System.Windows.Forms.Label();
@@ -73,14 +75,14 @@
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Lato Black", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label6.Location = new System.Drawing.Point(303, 169);
+            this.label6.Location = new System.Drawing.Point(117, 169);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(227, 48);
+            this.label6.Size = new System.Drawing.Size(606, 48);
             this.label6.TabIndex = 16;
             this.label6.Text = "Rejestracja";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox2
             // 
@@ -151,14 +153,14 @@
             // lbVHaslo
             // 
             this.lbVHaslo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.lbVHaslo.AutoSize = true;
             this.lbVHaslo.Font = new System.Drawing.Font("Lato", 9F);
             this.lbVHaslo.ForeColor = System.Drawing.Color.Red;
-            this.lbVHaslo.Location = new System.Drawing.Point(323, 329);
+            this.lbVHaslo.Location = new System.Drawing.Point(224, 329);
             this.lbVHaslo.Name = "lbVHaslo";
-            this.lbVHaslo.Size = new System.Drawing.Size(163, 18);
+            this.lbVHaslo.Size = new System.Drawing.Size(369, 18);
             this.lbVHaslo.TabIndex = 8;
             this.lbVHaslo.Text = "Hasła nie są takie same";
+            this.lbVHaslo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lbVHaslo.Visible = false;
             // 
             // lbHaslo
@@ -186,6 +188,8 @@
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.panel2.Controls.Add(this.lbInfo);
+            this.panel2.Controls.Add(this.btnInfo);
             this.panel2.Controls.Add(this.btnRefresh);
             this.panel2.Controls.Add(this.pbCapcha);
             this.panel2.Controls.Add(this.lbRodzaj);
@@ -206,11 +210,43 @@
             this.panel2.Controls.Add(this.tbHaslo);
             this.panel2.Controls.Add(this.lbEmail);
             this.panel2.Controls.Add(this.tbEmail);
-            this.panel2.Location = new System.Drawing.Point(-104, 212);
+            this.panel2.Location = new System.Drawing.Point(-104, 213);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(840, 830);
             this.panel2.TabIndex = 14;
+            // 
+            // lbInfo
+            // 
+            this.lbInfo.AutoSize = true;
+            this.lbInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbInfo.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lbInfo.Location = new System.Drawing.Point(379, 43);
+            this.lbInfo.Name = "lbInfo";
+            this.lbInfo.Padding = new System.Windows.Forms.Padding(10, 10, 30, 10);
+            this.lbInfo.Size = new System.Drawing.Size(286, 112);
+            this.lbInfo.TabIndex = 18;
+            this.lbInfo.Text = "Hasło musi zawierać:\r\n - minimum 8 znaków,\r\n - przynajmniej 1 wielką literę,\r\n - " +
+    "przynajmniej 1 cyfrę,\r\n - przynajmniej jeden zank specjalny.\r\n";
+            this.lbInfo.Visible = false;
+            // 
+            // btnInfo
+            // 
+            this.btnInfo.FlatAppearance.BorderSize = 0;
+            this.btnInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInfo.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.btnInfo.IconChar = FontAwesome.Sharp.IconChar.CircleInfo;
+            this.btnInfo.IconColor = System.Drawing.Color.Gray;
+            this.btnInfo.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnInfo.IconSize = 25;
+            this.btnInfo.Location = new System.Drawing.Point(564, 181);
+            this.btnInfo.Name = "btnInfo";
+            this.btnInfo.Size = new System.Drawing.Size(25, 25);
+            this.btnInfo.TabIndex = 17;
+            this.btnInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInfo.UseVisualStyleBackColor = true;
+            this.btnInfo.MouseEnter += new System.EventHandler(this.btnInfo_MouseEnter);
+            this.btnInfo.MouseLeave += new System.EventHandler(this.btnInfo_MouseLeave);
             // 
             // btnRefresh
             // 
@@ -256,62 +292,62 @@
             this.cbRodzaj.Items.AddRange(new object[] {
             "Użytkownik",
             "Przewoźnik"});
-            this.cbRodzaj.Location = new System.Drawing.Point(227, 384);
+            this.cbRodzaj.Location = new System.Drawing.Point(224, 384);
             this.cbRodzaj.Margin = new System.Windows.Forms.Padding(4);
             this.cbRodzaj.Name = "cbRodzaj";
-            this.cbRodzaj.Size = new System.Drawing.Size(367, 36);
+            this.cbRodzaj.Size = new System.Drawing.Size(368, 36);
             this.cbRodzaj.TabIndex = 14;
             // 
             // lbVEmail
             // 
             this.lbVEmail.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.lbVEmail.AutoSize = true;
             this.lbVEmail.Font = new System.Drawing.Font("Lato", 9F);
             this.lbVEmail.ForeColor = System.Drawing.Color.Red;
-            this.lbVEmail.Location = new System.Drawing.Point(331, 161);
+            this.lbVEmail.Location = new System.Drawing.Point(224, 161);
             this.lbVEmail.Name = "lbVEmail";
-            this.lbVEmail.Size = new System.Drawing.Size(141, 18);
+            this.lbVEmail.Size = new System.Drawing.Size(369, 18);
             this.lbVEmail.TabIndex = 9;
             this.lbVEmail.Text = "E-mail nie poprawny";
+            this.lbVEmail.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lbVEmail.Visible = false;
             // 
             // lbVLogin
             // 
             this.lbVLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.lbVLogin.AutoSize = true;
             this.lbVLogin.Font = new System.Drawing.Font("Lato", 9F);
             this.lbVLogin.ForeColor = System.Drawing.Color.Red;
-            this.lbVLogin.Location = new System.Drawing.Point(331, 84);
+            this.lbVLogin.Location = new System.Drawing.Point(227, 84);
             this.lbVLogin.Name = "lbVLogin";
-            this.lbVLogin.Size = new System.Drawing.Size(147, 18);
+            this.lbVLogin.Size = new System.Drawing.Size(367, 18);
             this.lbVLogin.TabIndex = 9;
             this.lbVLogin.Text = "Nazwa jest już zajęta";
+            this.lbVLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lbVLogin.Visible = false;
             // 
             // lbVRodzaj
             // 
             this.lbVRodzaj.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.lbVRodzaj.AutoSize = true;
             this.lbVRodzaj.Font = new System.Drawing.Font("Lato", 9F);
             this.lbVRodzaj.ForeColor = System.Drawing.Color.Red;
-            this.lbVRodzaj.Location = new System.Drawing.Point(323, 424);
+            this.lbVRodzaj.Location = new System.Drawing.Point(224, 423);
             this.lbVRodzaj.Name = "lbVRodzaj";
-            this.lbVRodzaj.Size = new System.Drawing.Size(156, 18);
+            this.lbVRodzaj.Size = new System.Drawing.Size(369, 18);
             this.lbVRodzaj.TabIndex = 8;
             this.lbVRodzaj.Text = "To pole jest wymagane";
+            this.lbVRodzaj.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lbVRodzaj.Visible = false;
             // 
             // lbVOdpowiedz
             // 
             this.lbVOdpowiedz.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.lbVOdpowiedz.AutoSize = true;
             this.lbVOdpowiedz.Font = new System.Drawing.Font("Lato", 9F);
             this.lbVOdpowiedz.ForeColor = System.Drawing.Color.Red;
-            this.lbVOdpowiedz.Location = new System.Drawing.Point(323, 601);
+            this.lbVOdpowiedz.Location = new System.Drawing.Point(225, 601);
             this.lbVOdpowiedz.Name = "lbVOdpowiedz";
-            this.lbVOdpowiedz.Size = new System.Drawing.Size(156, 18);
+            this.lbVOdpowiedz.Size = new System.Drawing.Size(368, 18);
             this.lbVOdpowiedz.TabIndex = 8;
             this.lbVOdpowiedz.Text = "To pole jest wymagane";
+            this.lbVOdpowiedz.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lbVOdpowiedz.Visible = false;
             // 
             // lbOdpowiedz
@@ -383,7 +419,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(632, 937);
+            this.ClientSize = new System.Drawing.Size(632, 953);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
@@ -393,7 +429,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rejestracja";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -429,5 +464,7 @@
         private System.Windows.Forms.Label lbVOdpowiedz;
         private System.Windows.Forms.Label lbOdpowiedz;
         private System.Windows.Forms.TextBox tbOdpowiedz;
+        private FontAwesome.Sharp.IconButton btnInfo;
+        private System.Windows.Forms.Label lbInfo;
     }
 }
