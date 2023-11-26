@@ -74,3 +74,43 @@ D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsaf
 D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.csproj.CopyComplete
 D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.KodZapHaslo.resources
 D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.ResetHasla.resources
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Projekt.exe.config
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Projekt.exe
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Projekt.pdb
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\ExCSS.dll
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Fizzler.dll
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\GumroadLicensing.dll
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Newtonsoft.Json.dll
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Svg.dll
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Buffers.dll
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Memory.dll
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Fizzler.pdb
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Newtonsoft.Json.xml
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Svg.xml
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Buffers.xml
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Memory.xml
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.csproj.AssemblyReference.cache
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.DashboardPrzewoznik.resources
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.Logowanie.resources
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.KodZapHaslo.resources
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.Properties.Resources.resources
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.Rejestracja.resources
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Dodaj_lot.resources
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Edytuj_lot.resources
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Konto_firmowe.resources
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Lista_lotow.resources
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Usun_lot.resources
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.ResetHasla.resources
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.SkyFind.resources
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.ZapHaslo.resources
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.csproj.GenerateResource.cache
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.csproj.CopyComplete
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.exe
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.pdb
+C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.Formularze.Dashboarduzytkownik.resources
