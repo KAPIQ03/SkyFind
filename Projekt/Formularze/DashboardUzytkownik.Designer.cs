@@ -1,6 +1,8 @@
-﻿namespace Projekt.Formularze
+﻿using System.Drawing;
+
+namespace Projekt.Formularze
 {
-    partial class Dashboarduzytkownik
+    partial class DashboardUzytkownik
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +30,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboarduzytkownik));
-            this.Kontof = new FontAwesome.Sharp.IconButton();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardUzytkownik));
+            this.WyszukajL = new FontAwesome.Sharp.IconButton();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.panelTytul = new System.Windows.Forms.Panel();
@@ -39,9 +41,8 @@
             this.panelborderg = new System.Windows.Forms.Panel();
             this.panelborderld = new System.Windows.Forms.Panel();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.Usunl = new FontAwesome.Sharp.IconButton();
-            this.Edytujl = new FontAwesome.Sharp.IconButton();
-            this.Dodajl = new FontAwesome.Sharp.IconButton();
+            this.UlubioneL = new FontAwesome.Sharp.IconButton();
+            this.MojeB = new FontAwesome.Sharp.IconButton();
             this.DaneK = new FontAwesome.Sharp.IconButton();
             this.panelMain = new System.Windows.Forms.Panel();
             this.panelLogo.SuspendLayout();
@@ -51,30 +52,30 @@
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Kontof
+            // WyszukajL
             // 
-            this.Kontof.BackColor = System.Drawing.Color.White;
-            this.Kontof.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Kontof.FlatAppearance.BorderSize = 0;
-            this.Kontof.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Kontof.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Kontof.ForeColor = System.Drawing.Color.Black;
-            this.Kontof.IconChar = FontAwesome.Sharp.IconChar.PlaneUp;
-            this.Kontof.IconColor = System.Drawing.Color.Orange;
-            this.Kontof.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.Kontof.IconSize = 32;
-            this.Kontof.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Kontof.Location = new System.Drawing.Point(0, 269);
-            this.Kontof.Margin = new System.Windows.Forms.Padding(6);
-            this.Kontof.Name = "Kontof";
-            this.Kontof.Padding = new System.Windows.Forms.Padding(20, 0, 40, 0);
-            this.Kontof.Size = new System.Drawing.Size(440, 116);
-            this.Kontof.TabIndex = 1;
-            this.Kontof.Text = "Wybierz lot";
-            this.Kontof.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Kontof.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Kontof.UseVisualStyleBackColor = false;
-            this.Kontof.Click += new System.EventHandler(this.Kontof_Click);
+            this.WyszukajL.BackColor = System.Drawing.Color.White;
+            this.WyszukajL.Dock = System.Windows.Forms.DockStyle.Top;
+            this.WyszukajL.FlatAppearance.BorderSize = 0;
+            this.WyszukajL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.WyszukajL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.WyszukajL.ForeColor = System.Drawing.Color.Black;
+            this.WyszukajL.IconChar = FontAwesome.Sharp.IconChar.PlaneUp;
+            this.WyszukajL.IconColor = System.Drawing.Color.Orange;
+            this.WyszukajL.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.WyszukajL.IconSize = 32;
+            this.WyszukajL.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.WyszukajL.Location = new System.Drawing.Point(0, 269);
+            this.WyszukajL.Margin = new System.Windows.Forms.Padding(6);
+            this.WyszukajL.Name = "WyszukajL";
+            this.WyszukajL.Padding = new System.Windows.Forms.Padding(20, 0, 40, 0);
+            this.WyszukajL.Size = new System.Drawing.Size(440, 116);
+            this.WyszukajL.TabIndex = 1;
+            this.WyszukajL.Text = "Wyszukaj lot";
+            this.WyszukajL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.WyszukajL.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.WyszukajL.UseVisualStyleBackColor = false;
+            this.WyszukajL.Click += new System.EventHandler(this.Kontof_Click);
             // 
             // panelLogo
             // 
@@ -170,11 +171,10 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.White;
-            this.panelMenu.Controls.Add(this.Usunl);
-            this.panelMenu.Controls.Add(this.Edytujl);
-            this.panelMenu.Controls.Add(this.Dodajl);
+            this.panelMenu.Controls.Add(this.UlubioneL);
+            this.panelMenu.Controls.Add(this.MojeB);
             this.panelMenu.Controls.Add(this.DaneK);
-            this.panelMenu.Controls.Add(this.Kontof);
+            this.panelMenu.Controls.Add(this.WyszukajL);
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
@@ -183,77 +183,53 @@
             this.panelMenu.Size = new System.Drawing.Size(440, 1078);
             this.panelMenu.TabIndex = 5;
             // 
-            // Usunl
+            // UlubioneL
             // 
-            this.Usunl.BackColor = System.Drawing.Color.White;
-            this.Usunl.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Usunl.FlatAppearance.BorderSize = 0;
-            this.Usunl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Usunl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Usunl.ForeColor = System.Drawing.Color.Black;
-            this.Usunl.IconChar = FontAwesome.Sharp.IconChar.PlaneCircleXmark;
-            this.Usunl.IconColor = System.Drawing.Color.Orange;
-            this.Usunl.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.Usunl.IconSize = 32;
-            this.Usunl.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Usunl.Location = new System.Drawing.Point(0, 733);
-            this.Usunl.Margin = new System.Windows.Forms.Padding(6);
-            this.Usunl.Name = "Usunl";
-            this.Usunl.Padding = new System.Windows.Forms.Padding(20, 0, 40, 0);
-            this.Usunl.Size = new System.Drawing.Size(440, 116);
-            this.Usunl.TabIndex = 5;
-            this.Usunl.Text = "Usuń lot";
-            this.Usunl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Usunl.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Usunl.UseVisualStyleBackColor = false;
+            this.UlubioneL.BackColor = System.Drawing.Color.White;
+            this.UlubioneL.Dock = System.Windows.Forms.DockStyle.Top;
+            this.UlubioneL.FlatAppearance.BorderSize = 0;
+            this.UlubioneL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.UlubioneL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.UlubioneL.ForeColor = System.Drawing.Color.Black;
+            this.UlubioneL.IconChar = FontAwesome.Sharp.IconChar.Heart;
+            this.UlubioneL.IconColor = System.Drawing.Color.Orange;
+            this.UlubioneL.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.UlubioneL.IconSize = 32;
+            this.UlubioneL.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.UlubioneL.Location = new System.Drawing.Point(0, 617);
+            this.UlubioneL.Margin = new System.Windows.Forms.Padding(6);
+            this.UlubioneL.Name = "UlubioneL";
+            this.UlubioneL.Padding = new System.Windows.Forms.Padding(20, 0, 40, 0);
+            this.UlubioneL.Size = new System.Drawing.Size(440, 116);
+            this.UlubioneL.TabIndex = 4;
+            this.UlubioneL.Text = "Ulubione";
+            this.UlubioneL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.UlubioneL.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.UlubioneL.UseVisualStyleBackColor = false;
             // 
-            // Edytujl
+            // MojeB
             // 
-            this.Edytujl.BackColor = System.Drawing.Color.White;
-            this.Edytujl.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Edytujl.FlatAppearance.BorderSize = 0;
-            this.Edytujl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Edytujl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Edytujl.ForeColor = System.Drawing.Color.Black;
-            this.Edytujl.IconChar = FontAwesome.Sharp.IconChar.PlaneCircleExclamation;
-            this.Edytujl.IconColor = System.Drawing.Color.Orange;
-            this.Edytujl.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.Edytujl.IconSize = 32;
-            this.Edytujl.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Edytujl.Location = new System.Drawing.Point(0, 617);
-            this.Edytujl.Margin = new System.Windows.Forms.Padding(6);
-            this.Edytujl.Name = "Edytujl";
-            this.Edytujl.Padding = new System.Windows.Forms.Padding(20, 0, 40, 0);
-            this.Edytujl.Size = new System.Drawing.Size(440, 116);
-            this.Edytujl.TabIndex = 4;
-            this.Edytujl.Text = "Edytuj lot";
-            this.Edytujl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Edytujl.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Edytujl.UseVisualStyleBackColor = false;
-            // 
-            // Dodajl
-            // 
-            this.Dodajl.BackColor = System.Drawing.Color.White;
-            this.Dodajl.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Dodajl.FlatAppearance.BorderSize = 0;
-            this.Dodajl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Dodajl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Dodajl.ForeColor = System.Drawing.Color.Black;
-            this.Dodajl.IconChar = FontAwesome.Sharp.IconChar.PlaneCircleCheck;
-            this.Dodajl.IconColor = System.Drawing.Color.Orange;
-            this.Dodajl.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.Dodajl.IconSize = 32;
-            this.Dodajl.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Dodajl.Location = new System.Drawing.Point(0, 501);
-            this.Dodajl.Margin = new System.Windows.Forms.Padding(6);
-            this.Dodajl.Name = "Dodajl";
-            this.Dodajl.Padding = new System.Windows.Forms.Padding(20, 0, 40, 0);
-            this.Dodajl.Size = new System.Drawing.Size(440, 116);
-            this.Dodajl.TabIndex = 3;
-            this.Dodajl.Text = "Dodaj lot";
-            this.Dodajl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Dodajl.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Dodajl.UseVisualStyleBackColor = false;
+            this.MojeB.BackColor = System.Drawing.Color.White;
+            this.MojeB.Dock = System.Windows.Forms.DockStyle.Top;
+            this.MojeB.FlatAppearance.BorderSize = 0;
+            this.MojeB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MojeB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.MojeB.ForeColor = System.Drawing.Color.Black;
+            this.MojeB.IconChar = FontAwesome.Sharp.IconChar.Ticket;
+            this.MojeB.IconColor = System.Drawing.Color.Orange;
+            this.MojeB.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.MojeB.IconSize = 32;
+            this.MojeB.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.MojeB.Location = new System.Drawing.Point(0, 501);
+            this.MojeB.Margin = new System.Windows.Forms.Padding(6);
+            this.MojeB.Name = "MojeB";
+            this.MojeB.Padding = new System.Windows.Forms.Padding(20, 0, 40, 0);
+            this.MojeB.Size = new System.Drawing.Size(440, 116);
+            this.MojeB.TabIndex = 3;
+            this.MojeB.Text = "Moje bilety";
+            this.MojeB.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.MojeB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.MojeB.UseVisualStyleBackColor = false;
             // 
             // DaneK
             // 
@@ -274,10 +250,11 @@
             this.DaneK.Padding = new System.Windows.Forms.Padding(20, 0, 40, 0);
             this.DaneK.Size = new System.Drawing.Size(440, 116);
             this.DaneK.TabIndex = 2;
-            this.DaneK.Text = "Lista lotów";
+            this.DaneK.Text = "Dane konta";
             this.DaneK.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.DaneK.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.DaneK.UseVisualStyleBackColor = false;
+            this.DaneK.Click += new System.EventHandler(this.DaneK_Click);
             // 
             // panelMain
             // 
@@ -290,7 +267,7 @@
             this.panelMain.Size = new System.Drawing.Size(1968, 1078);
             this.panelMain.TabIndex = 7;
             // 
-            // Dashboarduzytkownik
+            // DashboardUzytkownik
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -300,7 +277,7 @@
             this.Controls.Add(this.panelborderld);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panelMain);
-            this.Name = "Dashboarduzytkownik";
+            this.Name = "DashboardUzytkownik";
             this.Text = "DashboradUzytkownik";
             this.Load += new System.EventHandler(this.Dashboarduzytkownik_Load);
             this.panelLogo.ResumeLayout(false);
@@ -315,7 +292,7 @@
 
         #endregion
 
-        private FontAwesome.Sharp.IconButton Kontof;
+        private FontAwesome.Sharp.IconButton WyszukajL;
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.PictureBox pictureBoxLogo;
         private System.Windows.Forms.Panel panelTytul;
@@ -325,9 +302,8 @@
         private System.Windows.Forms.Panel panelborderg;
         private System.Windows.Forms.Panel panelborderld;
         private System.Windows.Forms.Panel panelMenu;
-        private FontAwesome.Sharp.IconButton Usunl;
-        private FontAwesome.Sharp.IconButton Edytujl;
-        private FontAwesome.Sharp.IconButton Dodajl;
+        private FontAwesome.Sharp.IconButton UlubioneL;
+        private FontAwesome.Sharp.IconButton MojeB;
         private FontAwesome.Sharp.IconButton DaneK;
         private System.Windows.Forms.Panel panelMain;
     }

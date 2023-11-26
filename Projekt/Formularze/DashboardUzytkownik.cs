@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projekt.Formularze
 {
-    public partial class Dashboarduzytkownik : Form
+    public partial class DashboardUzytkownik : Form
     {
-        public Dashboarduzytkownik()
+        public DashboardUzytkownik()
         {
             InitializeComponent();
         }
@@ -48,6 +48,11 @@ namespace Projekt.Formularze
         }
 
         private void Kontof_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DaneK_Click(object sender, EventArgs e)
         {
 
         }

@@ -89,11 +89,11 @@
     <Compile Include="Formularze\DashboardPrzewoznik.designer.cs">
       <DependentUpon>DashboardPrzewoznik.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularze\Dashboarduzytkownik.cs">
+    <Compile Include="Formularze\DashboardUzytkownik.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularze\Dashboarduzytkownik.Designer.cs">
-      <DependentUpon>Dashboarduzytkownik.cs</DependentUpon>
+    <Compile Include="Formularze\DashboardUzytkownik.Designer.cs">
+      <DependentUpon>DashboardUzytkownik.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularze\Logowanie.cs">
       <SubType>Form</SubType>
@@ -166,8 +166,8 @@
     <EmbeddedResource Include="Formularze\DashboardPrzewoznik.resx">
       <DependentUpon>DashboardPrzewoznik.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularze\Dashboarduzytkownik.resx">
-      <DependentUpon>Dashboarduzytkownik.cs</DependentUpon>
+    <EmbeddedResource Include="Formularze\DashboardUzytkownik.resx">
+      <DependentUpon>DashboardUzytkownik.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularze\Logowanie.resx">
       <DependentUpon>Logowanie.cs</DependentUpon>
@@ -228,6 +228,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\OIG.wQoiCHCAr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Formularze\FormularzeUzytkownik\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
