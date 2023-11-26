@@ -35,8 +35,8 @@
             this.lbVEmail = new System.Windows.Forms.Label();
             this.btnPowrot = new FontAwesome.Sharp.IconButton();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -98,14 +98,14 @@
             // lbVEmail
             // 
             this.lbVEmail.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lbVEmail.AutoSize = true;
             this.lbVEmail.Font = new System.Drawing.Font("Lato", 9F);
             this.lbVEmail.ForeColor = System.Drawing.Color.Red;
-            this.lbVEmail.Location = new System.Drawing.Point(231, 214);
+            this.lbVEmail.Location = new System.Drawing.Point(124, 214);
             this.lbVEmail.Name = "lbVEmail";
-            this.lbVEmail.Size = new System.Drawing.Size(176, 18);
+            this.lbVEmail.Size = new System.Drawing.Size(367, 18);
             this.lbVEmail.TabIndex = 10;
             this.lbVEmail.Text = "Podany e-mail nie istnieje";
+            this.lbVEmail.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lbVEmail.Visible = false;
             // 
             // btnPowrot
@@ -135,6 +135,17 @@
             this.panel3.Size = new System.Drawing.Size(840, 113);
             this.panel3.TabIndex = 18;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Lato Black", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(200, 37);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(387, 48);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "Przywracanie Hasła";
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -147,17 +158,6 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 16;
             this.pictureBox2.TabStop = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Lato Black", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(200, 37);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(387, 48);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "Przywracanie Hasła";
             // 
             // panel1
             // 

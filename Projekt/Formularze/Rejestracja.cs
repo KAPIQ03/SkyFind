@@ -183,5 +183,20 @@ namespace Projekt
         {
             LoadCaptchaImage();
         }
+
+        private void lbInfo_MouseHover(object sender, MouseEventArgs e)
+        {
+            
+        }
+
+        private void btnInfo_MouseEnter(object sender, EventArgs e)
+        {
+            lbInfo.Visible = true;
+        }
+
+        private void btnInfo_MouseLeave(object sender, EventArgs e)
+        {
+            lbInfo.Visible = false;
+        }
     }
 }
