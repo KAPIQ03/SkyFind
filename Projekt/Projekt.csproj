@@ -58,6 +58,7 @@
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
     </Reference>
@@ -87,6 +88,12 @@
     </Compile>
     <Compile Include="Formularze\DashboardPrzewoznik.designer.cs">
       <DependentUpon>DashboardPrzewoznik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularze\DashboardUzytkownik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularze\DashboardUzytkownik.Designer.cs">
+      <DependentUpon>DashboardUzytkownik.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularze\Logowanie.cs">
       <SubType>Form</SubType>
@@ -159,6 +166,9 @@
     <EmbeddedResource Include="Formularze\DashboardPrzewoznik.resx">
       <DependentUpon>DashboardPrzewoznik.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularze\DashboardUzytkownik.resx">
+      <DependentUpon>DashboardUzytkownik.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularze\Logowanie.resx">
       <DependentUpon>Logowanie.cs</DependentUpon>
     </EmbeddedResource>
@@ -218,6 +228,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\OIG.wQoiCHCAr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Formularze\FormularzeUzytkownik\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
