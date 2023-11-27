@@ -310,7 +310,12 @@
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panelTytul);
             this.Controls.Add(this.panelMenu);
+<<<<<<< HEAD
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
+=======
             this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+>>>>>>> 10bbadbe071b2055ac64b4bb392d6a7d155f3c52
             this.Name = "DashboardPrzewoznik";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Przewoźnik";
