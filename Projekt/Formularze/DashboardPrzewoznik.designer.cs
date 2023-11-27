@@ -305,6 +305,7 @@
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panelTytul);
             this.Controls.Add(this.panelMenu);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DashboardPrzewoznik";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
