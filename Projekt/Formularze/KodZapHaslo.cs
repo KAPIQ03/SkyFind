@@ -13,11 +13,12 @@ namespace Projekt
 {
     public partial class KodZapHaslo : Form
     {
-        int kod = 0;
-        public KodZapHaslo(int number)
+        int kod;
+        string LastEmail;
+        public KodZapHaslo(int number,string email)
         {
             InitializeComponent();
-
+            LastEmail = email; 
             kod = number;
         }
 
@@ -25,7 +26,7 @@ namespace Projekt
         {
             if (kod.ToString() == tbKod.Text)
             {
-                ResetHasla resetHasla = new ResetHasla();
+                ResetHasla resetHasla = new ResetHasla(LastEmail);
                 resetHasla.Show();
                 this.Close();
             }

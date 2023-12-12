@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.SQLite;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,6 +9,9 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Security.Policy;
+using System.Web.UI.WebControls;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Projekt
 {
@@ -78,7 +82,43 @@ namespace Projekt
         }
         public bool IsEmailValid(string email)
         {
-            if (email != "")
+            string emailP = "";
+            string emailU = "";
+            using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+            {
+                connection.Open();
+                string queryU = $"SELECT Email FROM Uzytkownicy WHERE Email = '{email}';";
+                string queryP = $"SELECT Email FROM Przewoznicy WHERE Email = '{email}';";
+
+                using (SQLiteCommand command = new SQLiteCommand(queryU, connection))
+                {
+                    using (SQLiteDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            emailU = reader["Email"].ToString();
+                        }
+                    }
+                }
+                using (SQLiteCommand command = new SQLiteCommand(queryP, connection))
+                {
+                    using (SQLiteDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            emailP = reader["Email"].ToString();
+                        }
+                    }
+                }
+                connection.Close();
+            }
+
+            if (((email == emailP) || (email == emailU)) && (email != "") )
+            {
+                lbVEmail.Text = "Konto z tym adresem już istnieje";
+                return false;
+            }
+            else if (email != "")
             {
                 for (int i = 0; i != email.Length; i++)
                 {
@@ -100,6 +140,55 @@ namespace Projekt
             }
             return false;
         }
+        public bool IsLoginValid(string login)
+        {
+            string loginP = "";
+            string loginU = "";
+
+            using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+            {
+                connection.Open();
+                string queryU = $"SELECT Login FROM Uzytkownicy WHERE Login = '{login}';"; ;
+                string queryP = $"SELECT Login FROM Przewoznicy WHERE Login = '{login}';"; ;
+
+                using (SQLiteCommand command = new SQLiteCommand(queryU, connection))
+                {
+                    using (SQLiteDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            loginU = reader["Login"].ToString();
+                        }
+                    }
+                }
+                using (SQLiteCommand command = new SQLiteCommand(queryP, connection))
+                {
+                    using (SQLiteDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            loginP = reader["Login"].ToString();
+                        }
+                    }
+                }
+                connection.Close();
+            }
+
+            if (((login == loginP)||(login == loginU))&& (login != ""))
+            {
+                lbVLogin.Text = "Konto z tym loginem już istnieje";
+                return false;
+            }
+            else if (login != "")
+            {
+                return true;
+            }
+            else
+            {
+                lbVLogin.Text = "To pole jest wymagane";
+                return false;
+            }
+        }
 
         private void btnUtwoz_Click(object sender, EventArgs e)
         {
@@ -109,6 +198,7 @@ namespace Projekt
             string email = tbEmail.Text;
             string rKonta = cbRodzaj.Text;
             string odpowiedz = tbOdpowiedz.Text;
+
 
             if (!IsEmailValid(email)){
                 IsEmailValid(email);
@@ -133,10 +223,9 @@ namespace Projekt
                 lbHaslo.ForeColor= Color.Black;
                 lbPHaslo.ForeColor=Color.Black;
             }
-            if (login == "")
+            if (!IsLoginValid(login))
             {
                 lbVLogin.Visible = true;
-                lbVLogin.Text = "To pole jest wymagane";
                 lbLogin.ForeColor = Color.Red;
             }
             else
@@ -173,8 +262,37 @@ namespace Projekt
             }
             if (IsPasswordValid(haslo,pHaslo)&&IsEmailValid(email)&&rKonta!=null&&login!=null&&odpowiedz!=null&&odpowiedz==number.ToString())
             {
-                logowanie.Show();
-                this.Close();
+                if (rKonta == "Użytkownik")
+                { 
+                    using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+                    {
+                        connection.Open();
+                        string query = $"INSERT INTO Uzytkownicy(Email,Login,Haslo) VALUES ('{email}','{login}','{haslo}')";
+                        using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                        {
+                            command.ExecuteNonQuery();
+                        }
+                        connection.Close();
+                    }
+                    logowanie.Show();
+                    this.Close();
+                }
+                else if(rKonta == "Przewoźnik")
+                {
+                    using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+                    {
+                        connection.Open();
+                        string query = $"INSERT INTO Przewoznicy(NazwaPrzewoznika, Haslo, Email, Login, IloscLotow) VALUES ('{login}','{haslo}','{email}','{login}',0)";
+                        using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                        {
+                            command.ExecuteNonQuery();
+                        }
+                        connection.Close();
+                    }
+                    logowanie.Show();
+                    this.Close();
+                }
+                
             }
             
         }
