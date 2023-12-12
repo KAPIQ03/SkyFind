@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.SQLite;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,13 +10,17 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Data.Entity.Infrastructure.Design.Executor;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Projekt
 {
     public partial class ResetHasla : Form
     {
-        public ResetHasla()
+        string LastEmail;
+        public ResetHasla(string email)
         {
+            LastEmail = email;
             InitializeComponent();
         }
         public bool IsPasswordValid(string password, string passwordRepeat)
@@ -78,6 +83,63 @@ namespace Projekt
                 lbHaslo.ForeColor = Color.Black;
                 lbPHaslo.ForeColor = Color.Black;
 
+                string emailP = "";
+                string emailU = "";
+
+                using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+                {
+                    connection.Open();
+                    string queryU = $"SELECT Email FROM Uzytkownicy WHERE Email = '{LastEmail}';";
+                    string queryP = $"SELECT Email FROM Przewoznicy WHERE Email = '{LastEmail}';";
+
+                    using (SQLiteCommand command = new SQLiteCommand(queryU, connection))
+                    {
+                        using (SQLiteDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                emailU = reader["Email"].ToString();
+                            }
+                        }
+                    }
+                    using (SQLiteCommand command = new SQLiteCommand(queryP, connection))
+                    {
+                        using (SQLiteDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                emailP = reader["Email"].ToString();
+                            }
+                        }
+                    }
+                    connection.Close();
+                }
+                if (emailP != "")
+                {
+                    using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+                    {
+                        connection.Open();
+                        string query = $"UPDATE Przewoznicy SET Haslo = '{haslo}' WHERE Email = '{emailP}';";
+                        using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                        {
+                            command.ExecuteNonQuery();
+                        }
+                        connection.Close();
+                    }
+                }
+                if(emailU != "")
+                {
+                    using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+                    {
+                        connection.Open();
+                        string query = $"UPDATE Uzytkownicy SET Haslo = '{haslo}' WHERE Email = '{emailU}';";
+                        using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                        {
+                            command.ExecuteNonQuery();
+                        }
+                        connection.Close();
+                    }
+                }
                 Logowanie logowanie = new Logowanie();
                 logowanie.Show();
                 this.Close();

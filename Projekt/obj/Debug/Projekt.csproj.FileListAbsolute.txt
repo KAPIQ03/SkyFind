@@ -114,3 +114,12 @@ C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Proje
 C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.exe
 C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.pdb
 C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.Formularze.Dashboarduzytkownik.resources
+D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\EntityFramework.dll
+D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\EntityFramework.SqlServer.dll
+D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Data.SQLite.dll
+D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Data.SQLite.EF6.dll
+D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Data.SQLite.Linq.dll
+D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\EntityFramework.xml
+D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\EntityFramework.SqlServer.xml
+D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Data.SQLite.xml
+D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.Formularze.DashboardUzytkownik.resources

@@ -12,9 +12,13 @@ namespace Projekt.Formularze
 {
     public partial class DashboardUzytkownik : Form
     {
-        public DashboardUzytkownik()
+        string personLogin;
+        public DashboardUzytkownik(string login)
         {
+            personLogin = login;
             InitializeComponent();
+
+            this.Text = $"Witaj, {personLogin}";
         }
 
         private void Dashboarduzytkownik_Load(object sender, EventArgs e)

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.SQLite;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,6 +10,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
 using System.Net.Mail;
+using System.Web.UI.WebControls;
+using System.Security.Policy;
 
 namespace Projekt
 {
@@ -27,19 +30,44 @@ namespace Projekt
         }
         public bool IsEmailValid(string email)
         {
-            if (email != "")
+            string emailP = "";
+            string emailU = "";
+            using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
             {
-                for (int i = 0; i != email.Length; i++)
+                connection.Open();
+                string queryU = $"SELECT Email FROM Uzytkownicy WHERE Email = '{email}';";
+                string queryP = $"SELECT Email FROM Przewoznicy WHERE Email = '{email}';";
+
+                using (SQLiteCommand command = new SQLiteCommand(queryU, connection))
                 {
-                    if (email[i] == '@')
+                    using (SQLiteDataReader reader = command.ExecuteReader())
                     {
-                        return true;
-                    }
-                    else
-                    {
-                        lbVEmail.Text = "E-mail nie jest poprawny";
+                        while (reader.Read())
+                        {
+                            emailU = reader["Email"].ToString();
+                        }
                     }
                 }
+                using (SQLiteCommand command = new SQLiteCommand(queryP, connection))
+                {
+                    using (SQLiteDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            emailP = reader["Email"].ToString();
+                        }
+                    }
+                }
+                connection.Close();
+            }
+            if (((email == emailP) || (email == emailU)) && (email != ""))
+            { 
+                return true;
+            }
+            else if (email != "")
+            {
+                 lbVEmail.Text = "konto z takim adresem nie istnieje";
+                return false;
             }
             else
             {
@@ -47,24 +75,23 @@ namespace Projekt
                 return false;
 
             }
-            return false;
         }
         int number;
-        public void SendMail(string email)
+        public void SendMail(string email,string login)
         {
             string fromMail = "SkyFind.rejestracja@gmail.com";
             string fromPassword = "ixjg gpdq nugc zaln";
             string toMail = email;
-            string login = "Kacper";
+            string toLogin = login;
             Random rnd = new Random();
             number = rnd.Next(1000, 10000);
             Console.WriteLine(number);
 
             MailMessage message = new MailMessage();
             message.From = new MailAddress(fromMail);
-            message.Subject = "Rejestracja";
+            message.Subject = "Reset Hasła";
             message.To.Add(new MailAddress(toMail));
-            message.Body = $"Wtaj {login},<br> Twój kod do edycji hasła to: <b>{number}</b><br>Ta wiadomość została wygenerowana automatycznie";
+            message.Body = $"Wtaj {toLogin},<br> Twój kod do edycji hasła to: <b>{number}</b><br>Ta wiadomość została wygenerowana automatycznie";
             message.IsBodyHtml = true;
 
             var smtpClient = new SmtpClient("smtp.gmail.com")
@@ -89,9 +116,40 @@ namespace Projekt
             {
                 lbVEmail.Visible = false;
                 lbEmail.ForeColor = Color.Black;
+                string loginU = "";
+                string loginP = "";
 
-                SendMail(email);
-                KodZapHaslo kodZapHaslo = new KodZapHaslo(number);
+                using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+                {
+                    connection.Open();
+                    string queryU = $"SELECT Login FROM Uzytkownicy WHERE Email = '{email}';";
+                    string queryP = $"SELECT Login FROM Przewoznicy WHERE Email = '{email}';";
+
+                    using (SQLiteCommand command = new SQLiteCommand(queryU, connection))
+                    {
+                        using (SQLiteDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            { 
+                                loginU = reader["Login"].ToString();
+                            }
+                        }
+                    }
+                    using (SQLiteCommand command = new SQLiteCommand(queryP, connection))
+                    {
+                        using (SQLiteDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                loginP = reader["Login"].ToString();
+                            }
+                        }
+                    }
+                    connection.Close();
+                }
+                string login = loginP + loginU;
+                SendMail(email,login);
+                KodZapHaslo kodZapHaslo = new KodZapHaslo(number,email);
                 kodZapHaslo.Show();
                 this.Close();
             }

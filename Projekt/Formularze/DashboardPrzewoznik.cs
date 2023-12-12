@@ -19,9 +19,12 @@ namespace Dashboard_Firmy
         private Panel leftBorderBtn;
         private Form currentChildForm;
 
-        public DashboardPrzewoznik()
+        string personLogin;
+        public DashboardPrzewoznik(string login)
         {
+            personLogin = login;
             InitializeComponent();
+            this.Text = $"Witaj, {personLogin}";
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new System.Drawing.Size(7, 60);
             panelMenu.Controls.Add(leftBorderBtn);
