@@ -114,6 +114,30 @@
     <Compile Include="Formularze\DashboardUzytkownik.Designer.cs">
       <DependentUpon>DashboardUzytkownik.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularze\FormularzeUzytkownik\Dane_konta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularze\FormularzeUzytkownik\Dane_konta.Designer.cs">
+      <DependentUpon>Dane_konta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularze\FormularzeUzytkownik\Moje_bilety.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularze\FormularzeUzytkownik\Moje_bilety.Designer.cs">
+      <DependentUpon>Moje_bilety.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularze\FormularzeUzytkownik\Ulubione.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularze\FormularzeUzytkownik\Ulubione.Designer.cs">
+      <DependentUpon>Ulubione.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularze\FormularzeUzytkownik\Wyszukaj_lot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularze\FormularzeUzytkownik\Wyszukaj_lot.Designer.cs">
+      <DependentUpon>Wyszukaj_lot.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularze\Logowanie.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -188,6 +212,18 @@
     <EmbeddedResource Include="Formularze\DashboardUzytkownik.resx">
       <DependentUpon>DashboardUzytkownik.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularze\FormularzeUzytkownik\Dane_konta.resx">
+      <DependentUpon>Dane_konta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularze\FormularzeUzytkownik\Moje_bilety.resx">
+      <DependentUpon>Moje_bilety.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularze\FormularzeUzytkownik\Ulubione.resx">
+      <DependentUpon>Ulubione.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularze\FormularzeUzytkownik\Wyszukaj_lot.resx">
+      <DependentUpon>Wyszukaj_lot.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularze\Logowanie.resx">
       <DependentUpon>Logowanie.cs</DependentUpon>
     </EmbeddedResource>
@@ -248,9 +284,7 @@
   <ItemGroup>
     <None Include="Resources\OIG.wQoiCHCAr.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Formularze\FormularzeUzytkownik\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
