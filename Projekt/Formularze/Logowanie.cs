@@ -63,7 +63,7 @@ namespace Projekt
         }
         static bool ReadDataU(string haslo, string login)
         {
-            using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+            using (SQLiteConnection connection = new SQLiteConnection(@"DataSource=..\..\BazaDanych\baza12_3.db;"))
             {
                 connection.Open();
                 string query = $"SELECT Login, Haslo FROM Uzytkownicy WHERE Haslo = '{haslo}' AND Login = '{login}'";
@@ -84,7 +84,7 @@ namespace Projekt
         }
         static bool ReadDataP(string haslo, string login)
         {
-            using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+            using (SQLiteConnection connection = new SQLiteConnection(@"DataSource=..\..\BazaDanych\baza12_3.db;"))
             {
                 connection.Open();
                 string query = $"SELECT Login, Haslo FROM Przewoznicy WHERE Haslo = '{haslo}' AND Login = '{login}'";

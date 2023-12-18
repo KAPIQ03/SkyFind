@@ -32,7 +32,7 @@ namespace Projekt
         {
             string emailP = "";
             string emailU = "";
-            using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+            using (SQLiteConnection connection = new SQLiteConnection(@"DataSource=..\..\BazaDanych\baza12_3.db;"))
             {
                 connection.Open();
                 string queryU = $"SELECT Email FROM Uzytkownicy WHERE Email = '{email}';";
@@ -119,7 +119,7 @@ namespace Projekt
                 string loginU = "";
                 string loginP = "";
 
-                using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+                using (SQLiteConnection connection = new SQLiteConnection(@"DataSource=..\..\BazaDanych\baza12_3.db;"))
                 {
                     connection.Open();
                     string queryU = $"SELECT Login FROM Uzytkownicy WHERE Email = '{email}';";

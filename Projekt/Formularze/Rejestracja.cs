@@ -84,7 +84,7 @@ namespace Projekt
         {
             string emailP = "";
             string emailU = "";
-            using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+            using (SQLiteConnection connection = new SQLiteConnection(@"DataSource=..\..\BazaDanych\baza12_3.db;"))
             {
                 connection.Open();
                 string queryU = $"SELECT Email FROM Uzytkownicy WHERE Email = '{email}';";
@@ -145,7 +145,7 @@ namespace Projekt
             string loginP = "";
             string loginU = "";
 
-            using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+            using (SQLiteConnection connection = new SQLiteConnection(@"DataSource=..\..\BazaDanych\baza12_3.db;"))
             {
                 connection.Open();
                 string queryU = $"SELECT Login FROM Uzytkownicy WHERE Login = '{login}';"; ;
@@ -264,7 +264,7 @@ namespace Projekt
             {
                 if (rKonta == "Użytkownik")
                 { 
-                    using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+                    using (SQLiteConnection connection = new SQLiteConnection(@"DataSource=..\..\BazaDanych\baza12_3.db;"))
                     {
                         connection.Open();
                         string query = $"INSERT INTO Uzytkownicy(Email,Login,Haslo) VALUES ('{email}','{login}','{haslo}')";
@@ -279,7 +279,7 @@ namespace Projekt
                 }
                 else if(rKonta == "Przewoźnik")
                 {
-                    using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+                    using (SQLiteConnection connection = new SQLiteConnection(@"DataSource=..\..\BazaDanych\baza12_3.db;"))
                     {
                         connection.Open();
                         string query = $"INSERT INTO Przewoznicy(NazwaPrzewoznika, Haslo, Email, Login, IloscLotow) VALUES ('{login}','{haslo}','{email}','{login}',0)";

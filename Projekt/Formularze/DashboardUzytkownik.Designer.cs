@@ -282,7 +282,6 @@ namespace Projekt.Formularze
             this.Name = "DashboardUzytkownik";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Uzytkownik";
-            this.Load += new System.EventHandler(this.Dashboarduzytkownik_Load);
             this.panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.panelTytul.ResumeLayout(false);
