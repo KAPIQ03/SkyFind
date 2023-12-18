@@ -86,7 +86,7 @@ namespace Projekt
                 string emailP = "";
                 string emailU = "";
 
-                using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+                using (SQLiteConnection connection = new SQLiteConnection(@"DataSource=..\..\BazaDanych\baza12_3.db;"))
                 {
                     connection.Open();
                     string queryU = $"SELECT Email FROM Uzytkownicy WHERE Email = '{LastEmail}';";
@@ -116,7 +116,7 @@ namespace Projekt
                 }
                 if (emailP != "")
                 {
-                    using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+                    using (SQLiteConnection connection = new SQLiteConnection(@"DataSource=..\..\BazaDanych\baza12_3.db;"))
                     {
                         connection.Open();
                         string query = $"UPDATE Przewoznicy SET Haslo = '{haslo}' WHERE Email = '{emailP}';";
@@ -129,7 +129,7 @@ namespace Projekt
                 }
                 if(emailU != "")
                 {
-                    using (SQLiteConnection connection = new SQLiteConnection("DataSource= D:\\STUDIA\\DEV\\C#\\Projekt\\Projekt\\BazaDanych\\baza12_3.db;"))
+                    using (SQLiteConnection connection = new SQLiteConnection(@"DataSource=..\..\BazaDanych\baza12_3.db;"))
                     {
                         connection.Open();
                         string query = $"UPDATE Uzytkownicy SET Haslo = '{haslo}' WHERE Email = '{emailU}';";
