@@ -10,8 +10,6 @@ using System.Windows;
 using System.Windows.Forms;
 using System.Windows.Media;
 using FontAwesome.Sharp;
-using Projekt;
-using Projekt.Formularze;
 
 namespace Dashboard_Firmy
 {
@@ -133,13 +131,6 @@ namespace Dashboard_Firmy
             iconWybrany.IconChar = IconChar.Home;
             iconWybrany.IconColor = System.Drawing.Color.Orange;
             panelWybraneTytul.Text = "Home";
-        }
-
-        private void wylogujBtn_Click(object sender, EventArgs e)
-        {
-            Logowanie logowanie = new Logowanie();
-            logowanie.Show();
-            this.Close();
         }
     }
 }

@@ -97,7 +97,7 @@ namespace Projekt.Formularze
         private void DaneK_Click(object sender, EventArgs e)
         {
             ActiveButton(sender, RGBColors.color1);
-            OpenChildForm(new Dane_konta());
+            OpenChildForm(new Dane_konta(personLogin));
         }
 
         private void MojeB_Click(object sender, EventArgs e)

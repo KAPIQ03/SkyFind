@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Projekt
+namespace Projekt.Formularze.FormularzeUzytkownik
 {
-    public partial class Ulubione : Form
+    public partial class Form1 : Form
     {
-        public Ulubione()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void label1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

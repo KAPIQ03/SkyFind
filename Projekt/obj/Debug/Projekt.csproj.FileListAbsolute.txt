@@ -1,226 +1,53 @@
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\Projekt.exe.config
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\Projekt.exe
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\Projekt.pdb
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Projekt.csproj.AssemblyReference.cache
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Projekt.Properties.Resources.resources
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Projekt.csproj.GenerateResource.cache
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Projekt.exe
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Projekt.pdb
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Projekt.Logowanie.resources
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\ExCSS.dll
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\Fizzler.dll
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\FontAwesome.Sharp.dll
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\GumroadLicensing.dll
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\Newtonsoft.Json.dll
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\Svg.dll
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\System.Buffers.dll
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\System.Memory.dll
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\System.Numerics.Vectors.dll
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\Fizzler.pdb
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\Newtonsoft.Json.xml
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\Svg.xml
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\System.Buffers.xml
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\System.Memory.xml
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\System.Numerics.Vectors.xml
-D:\DEV\C#\playground\Projekt\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Projekt.csproj.CopyComplete
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Projekt.Rejestracja.resources
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Projekt.ZapHaslo.resources
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Projekt.SkyFind.resources
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Dashboard_Firmy.DashboardPrzewoznik.resources
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Dodaj_lot.resources
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Edytuj_lot.resources
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Konto_firmowe.resources
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Lista_lotow.resources
-D:\DEV\C#\playground\Projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Usun_lot.resources
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.csproj.AssemblyReference.cache
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Dashboard_Firmy.DashboardPrzewoznik.resources
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.Logowanie.resources
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.Properties.Resources.resources
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.Rejestracja.resources
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Dodaj_lot.resources
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Edytuj_lot.resources
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Konto_firmowe.resources
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Lista_lotow.resources
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Usun_lot.resources
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.SkyFind.resources
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.ZapHaslo.resources
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.csproj.GenerateResource.cache
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.exe
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.pdb
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\Projekt.exe.config
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\Projekt.exe
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\Projekt.pdb
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\ExCSS.dll
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\Fizzler.dll
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\FontAwesome.Sharp.dll
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\GumroadLicensing.dll
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\Newtonsoft.Json.dll
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\Svg.dll
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Buffers.dll
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Memory.dll
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Numerics.Vectors.dll
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\Fizzler.pdb
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\Newtonsoft.Json.xml
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\Svg.xml
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Buffers.xml
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Memory.xml
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Numerics.Vectors.xml
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.csproj.CopyComplete
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.KodZapHaslo.resources
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.ResetHasla.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Projekt.exe.config
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Projekt.exe
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Projekt.pdb
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\ExCSS.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Fizzler.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\GumroadLicensing.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Newtonsoft.Json.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Svg.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Buffers.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Memory.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Fizzler.pdb
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Newtonsoft.Json.xml
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\Svg.xml
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Buffers.xml
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Memory.xml
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.csproj.AssemblyReference.cache
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.DashboardPrzewoznik.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.Logowanie.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.KodZapHaslo.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.Properties.Resources.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.Rejestracja.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Dodaj_lot.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Edytuj_lot.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Konto_firmowe.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Lista_lotow.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Usun_lot.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.ResetHasla.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.SkyFind.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.ZapHaslo.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.csproj.GenerateResource.cache
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.csproj.CopyComplete
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.exe
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.pdb
-C:\Users\leonz\Desktop\projekt PP\SkyFind-master\SkyFind\Projekt\obj\Debug\Projekt.Formularze.Dashboarduzytkownik.resources
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\EntityFramework.dll
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\EntityFramework.SqlServer.dll
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Data.SQLite.dll
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Data.SQLite.EF6.dll
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Data.SQLite.Linq.dll
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\EntityFramework.xml
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\EntityFramework.SqlServer.xml
-D:\STUDIA\DEV\C#\Projekt\Projekt\bin\Debug\System.Data.SQLite.xml
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.Formularze.DashboardUzytkownik.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Projekt.csproj.AssemblyReference.cache
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.DashboardPrzewoznik.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Projekt.Formularze.DashboardUzytkownik.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Projekt.Logowanie.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Projekt.KodZapHaslo.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Projekt.Properties.Resources.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Projekt.Rejestracja.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Dodaj_lot.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Edytuj_lot.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Konto_firmowe.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Lista_lotow.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Usun_lot.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Projekt.ResetHasla.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Projekt.SkyFind.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Projekt.ZapHaslo.resources
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Projekt.csproj.GenerateResource.cache
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Projekt.exe
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Projekt.pdb
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\Projekt.exe.config
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\Projekt.exe
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\Projekt.pdb
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\EntityFramework.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\ExCSS.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\Fizzler.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\GumroadLicensing.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\Newtonsoft.Json.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\Svg.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\System.Buffers.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\System.Data.SQLite.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\System.Data.SQLite.EF6.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\System.Data.SQLite.Linq.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\System.Memory.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\EntityFramework.xml
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\Fizzler.pdb
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\Newtonsoft.Json.xml
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\Svg.xml
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\System.Buffers.xml
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\System.Data.SQLite.xml
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\System.Memory.xml
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Projekt.csproj.CopyComplete
-C:\Users\leonz\Desktop\projekt PP\SkyFind - Lbranch\SkyFind\Projekt\obj\Debug\Projekt.Dane_konta.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\Projekt.exe.config
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\Projekt.exe
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\Projekt.pdb
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\EntityFramework.dll
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\ExCSS.dll
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\Fizzler.dll
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\GumroadLicensing.dll
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\Newtonsoft.Json.dll
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\Svg.dll
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\System.Buffers.dll
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\System.Data.SQLite.dll
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\System.Data.SQLite.EF6.dll
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\System.Data.SQLite.Linq.dll
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\System.Memory.dll
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\EntityFramework.xml
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\Fizzler.pdb
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\Newtonsoft.Json.xml
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\Svg.xml
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\System.Buffers.xml
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\System.Data.SQLite.xml
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\System.Memory.xml
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.csproj.AssemblyReference.cache
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Dashboard_Firmy.DashboardPrzewoznik.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.Formularze.DashboardUzytkownik.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.Dane_konta.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.Moje_bilety.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.Ulubione.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.Wyszukaj_lot.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.Logowanie.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.KodZapHaslo.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.Properties.Resources.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.Rejestracja.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Dodaj_lot.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Edytuj_lot.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Konto_firmowe.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Lista_lotow.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Usun_lot.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.ResetHasla.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.SkyFind.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.ZapHaslo.resources
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.csproj.GenerateResource.cache
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.csproj.CopyComplete
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.exe
-C:\Users\jakub\OneDrive\Pulpit\pp_projekt\Projekt\obj\Debug\Projekt.pdb
+C:\university\SkyFinder\Projekt\bin\Debug\Projekt.exe.config
+C:\university\SkyFinder\Projekt\bin\Debug\Projekt.exe
+C:\university\SkyFinder\Projekt\bin\Debug\Projekt.pdb
+C:\university\SkyFinder\Projekt\bin\Debug\EntityFramework.dll
+C:\university\SkyFinder\Projekt\bin\Debug\EntityFramework.SqlServer.dll
+C:\university\SkyFinder\Projekt\bin\Debug\ExCSS.dll
+C:\university\SkyFinder\Projekt\bin\Debug\Fizzler.dll
+C:\university\SkyFinder\Projekt\bin\Debug\FontAwesome.Sharp.dll
+C:\university\SkyFinder\Projekt\bin\Debug\GumroadLicensing.dll
+C:\university\SkyFinder\Projekt\bin\Debug\Newtonsoft.Json.dll
+C:\university\SkyFinder\Projekt\bin\Debug\Svg.dll
+C:\university\SkyFinder\Projekt\bin\Debug\System.Buffers.dll
+C:\university\SkyFinder\Projekt\bin\Debug\System.Data.SQLite.dll
+C:\university\SkyFinder\Projekt\bin\Debug\System.Data.SQLite.EF6.dll
+C:\university\SkyFinder\Projekt\bin\Debug\System.Data.SQLite.Linq.dll
+C:\university\SkyFinder\Projekt\bin\Debug\System.Memory.dll
+C:\university\SkyFinder\Projekt\bin\Debug\System.Numerics.Vectors.dll
+C:\university\SkyFinder\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\university\SkyFinder\Projekt\bin\Debug\EntityFramework.xml
+C:\university\SkyFinder\Projekt\bin\Debug\EntityFramework.SqlServer.xml
+C:\university\SkyFinder\Projekt\bin\Debug\Fizzler.pdb
+C:\university\SkyFinder\Projekt\bin\Debug\Newtonsoft.Json.xml
+C:\university\SkyFinder\Projekt\bin\Debug\Svg.xml
+C:\university\SkyFinder\Projekt\bin\Debug\System.Buffers.xml
+C:\university\SkyFinder\Projekt\bin\Debug\System.Data.SQLite.xml
+C:\university\SkyFinder\Projekt\bin\Debug\System.Memory.xml
+C:\university\SkyFinder\Projekt\bin\Debug\System.Numerics.Vectors.xml
+C:\university\SkyFinder\Projekt\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.csproj.AssemblyReference.cache
+C:\university\SkyFinder\Projekt\obj\Debug\Dashboard_Firmy.DashboardPrzewoznik.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.Formularze.DashboardUzytkownik.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.Dane_konta.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.Formularze.FormularzeUzytkownik.Form1.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.Moje_bilety.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.Ulubione.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.Wyszukaj_lot.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.Logowanie.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.KodZapHaslo.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.Properties.Resources.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.Rejestracja.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Dodaj_lot.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Edytuj_lot.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Konto_firmowe.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Lista_lotow.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Dashboard_Firmy.Formularze.Usun_lot.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.ResetHasla.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.SkyFind.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.ZapHaslo.resources
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.csproj.GenerateResource.cache
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.csproj.CopyComplete
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.exe
+C:\university\SkyFinder\Projekt\obj\Debug\Projekt.pdb
