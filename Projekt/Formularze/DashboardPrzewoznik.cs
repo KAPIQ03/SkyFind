@@ -10,6 +10,8 @@ using System.Windows;
 using System.Windows.Forms;
 using System.Windows.Media;
 using FontAwesome.Sharp;
+using Projekt;
+using Dashboard_Firmy.Formularze;
 
 namespace Dashboard_Firmy
 {
@@ -49,7 +51,7 @@ namespace Dashboard_Firmy
                 currentBtn.ImageAlign = ContentAlignment.MiddleRight;
 
                 leftBorderBtn.BackColor = color;
-                leftBorderBtn.Location = new System.Drawing.Point(0,currentBtn.Location.Y);
+                leftBorderBtn.Location = new System.Drawing.Point(0, currentBtn.Location.Y);
                 leftBorderBtn.Visible = true;
                 leftBorderBtn.BringToFront();
 
@@ -60,7 +62,7 @@ namespace Dashboard_Firmy
 
         private void DisableButton()
         {
-            if(currentBtn != null)
+            if (currentBtn != null)
             {
                 currentBtn.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
                 currentBtn.ForeColor = System.Drawing.Color.Black;
@@ -73,7 +75,7 @@ namespace Dashboard_Firmy
 
         private void OpenChildForm(Form childForm)
         {
-            if(currentChildForm != null)
+            if (currentChildForm != null)
             {
                 currentChildForm.Close();
             }
@@ -91,13 +93,16 @@ namespace Dashboard_Firmy
         private void Kontof_Click(object sender, EventArgs e)
         {
             ActiveButton(sender, RGBColors.color1);
-            OpenChildForm(new Formularze.Konto_firmowe());
+            OpenChildForm(new Formularze.Konto_firmowe(personLogin));
         }
 
         private void Listal_Click(object sender, EventArgs e)
         {
             ActiveButton(sender, RGBColors.color1);
-            OpenChildForm(new Formularze.Lista_lotow());
+            OpenChildForm(new Formularze.ListaLotowForm());
+
+            //ListaLotowForm listaLotowForm = new ListaLotowForm();
+            //listaLotowForm.ShowDialog();
         }
 
         private void Dodajl_Click(object sender, EventArgs e)
@@ -106,21 +111,14 @@ namespace Dashboard_Firmy
             OpenChildForm(new Formularze.Dodaj_lot());
         }
 
-        private void Edytujl_Click(object sender, EventArgs e)
-        {
-            ActiveButton(sender, RGBColors.color1);
-            OpenChildForm(new Formularze.Edytuj_lot());
-        }
 
-        private void Usunl_Click(object sender, EventArgs e)
-        {
-            ActiveButton(sender, RGBColors.color1);
-            OpenChildForm(new Formularze.Usun_lot());
-        }
 
         private void pictureBoxLogo_Click(object sender, EventArgs e)
         {
-            currentChildForm.Close();
+            if (currentChildForm != null)
+            {
+                currentChildForm.Close();
+            }
             Reset();
         }
 
@@ -131,6 +129,25 @@ namespace Dashboard_Firmy
             iconWybrany.IconChar = IconChar.Home;
             iconWybrany.IconColor = System.Drawing.Color.Orange;
             panelWybraneTytul.Text = "Home";
+        }
+
+        private void Wyloguj_Click(object sender, EventArgs e)
+        {
+            Logowanie logowanie = new Logowanie();
+            logowanie.Show();
+            this.Close();
+        }
+
+        private void Edytujl_Click_1(object sender, EventArgs e)
+        {
+            ActiveButton(sender, RGBColors.color1);
+            OpenChildForm(new Formularze.Edytuj_lot());
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            ActiveButton(sender, RGBColors.color1);
+            OpenChildForm(new Formularze.Usun_lot());
         }
     }
 }
