@@ -11,7 +11,7 @@ using System.Windows.Forms;
 using System.Windows.Media;
 using FontAwesome.Sharp;
 using Projekt;
-using static Dashboard_Firmy.Formularze.Lista_lotow;
+using Dashboard_Firmy.Formularze;
 
 namespace Dashboard_Firmy
 {
@@ -93,13 +93,16 @@ namespace Dashboard_Firmy
         private void Kontof_Click(object sender, EventArgs e)
         {
             ActiveButton(sender, RGBColors.color1);
-            OpenChildForm(new Formularze.Konto_firmowe());
+            OpenChildForm(new Formularze.Konto_firmowe(personLogin));
         }
 
         private void Listal_Click(object sender, EventArgs e)
         {
-            ListaLotowForm listaLotowForm = new ListaLotowForm();
-            listaLotowForm.ShowDialog();
+            ActiveButton(sender, RGBColors.color1);
+            OpenChildForm(new Formularze.ListaLotowForm());
+
+            //ListaLotowForm listaLotowForm = new ListaLotowForm();
+            //listaLotowForm.ShowDialog();
         }
 
         private void Dodajl_Click(object sender, EventArgs e)
@@ -108,11 +111,14 @@ namespace Dashboard_Firmy
             OpenChildForm(new Formularze.Dodaj_lot());
         }
 
-   
+
 
         private void pictureBoxLogo_Click(object sender, EventArgs e)
         {
-            currentChildForm.Close();
+            if (currentChildForm != null)
+            {
+                currentChildForm.Close();
+            }
             Reset();
         }
 
