@@ -35,72 +35,97 @@
             this.hasloTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(439, 175);
+            this.label1.Font = new System.Drawing.Font("Lato", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(107, 89);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 20);
+            this.label1.Size = new System.Drawing.Size(81, 28);
             this.label1.TabIndex = 1;
             this.label1.Text = "e-mail:";
             // 
             // emailTextBox
             // 
-            this.emailTextBox.Location = new System.Drawing.Point(505, 172);
+            this.emailTextBox.Font = new System.Drawing.Font("Lato", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.emailTextBox.Location = new System.Drawing.Point(222, 87);
+            this.emailTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.emailTextBox.Name = "emailTextBox";
-            this.emailTextBox.Size = new System.Drawing.Size(293, 26);
+            this.emailTextBox.Size = new System.Drawing.Size(261, 35);
             this.emailTextBox.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(448, 219);
+            this.label2.Font = new System.Drawing.Font("Lato", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(115, 147);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 20);
+            this.label2.Size = new System.Drawing.Size(68, 28);
             this.label2.TabIndex = 3;
             this.label2.Text = "login:";
             // 
             // loginTextBox
             // 
-            this.loginTextBox.Location = new System.Drawing.Point(505, 219);
+            this.loginTextBox.Font = new System.Drawing.Font("Lato", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.loginTextBox.Location = new System.Drawing.Point(222, 147);
+            this.loginTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.loginTextBox.Name = "loginTextBox";
-            this.loginTextBox.Size = new System.Drawing.Size(293, 26);
+            this.loginTextBox.Size = new System.Drawing.Size(261, 35);
             this.loginTextBox.TabIndex = 4;
             // 
             // hasloTextBox
             // 
-            this.hasloTextBox.Location = new System.Drawing.Point(505, 268);
+            this.hasloTextBox.Font = new System.Drawing.Font("Lato", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.hasloTextBox.Location = new System.Drawing.Point(222, 212);
+            this.hasloTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hasloTextBox.Name = "hasloTextBox";
-            this.hasloTextBox.Size = new System.Drawing.Size(293, 26);
+            this.hasloTextBox.Size = new System.Drawing.Size(261, 35);
             this.hasloTextBox.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(442, 271);
+            this.label3.Font = new System.Drawing.Font("Lato", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(110, 215);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 20);
+            this.label3.Size = new System.Drawing.Size(73, 28);
             this.label3.TabIndex = 6;
             this.label3.Text = "hasło:";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(672, 319);
+            this.button1.Font = new System.Drawing.Font("Lato", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Location = new System.Drawing.Point(673, 131);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 41);
+            this.button1.Size = new System.Drawing.Size(162, 66);
             this.button1.TabIndex = 7;
             this.button1.Text = "zapisz dane";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label4.Location = new System.Drawing.Point(408, 373);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(179, 24);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Pomyślnie zapisano";
+            this.label4.Visible = false;
+            // 
             // Dane_konta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1246, 840);
+            this.ClientSize = new System.Drawing.Size(969, 528);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.hasloTextBox);
@@ -124,5 +149,6 @@
         private System.Windows.Forms.TextBox hasloTextBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label4;
     }
 }

@@ -60,6 +60,7 @@ namespace Projekt
                 }
                 connection.Close();
             }
+            label4.Visible = true;
         }
     }
 }

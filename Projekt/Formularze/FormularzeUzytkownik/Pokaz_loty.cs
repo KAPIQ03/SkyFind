@@ -11,15 +11,13 @@ using System.Windows.Forms;
 
 namespace Projekt
 {
-    public partial class Pokaz_lot : Form
+    public partial class Pokaz_loty : Form
     {
         private const string ConnectionString = @"Data Source=..\..\BazaDanych\baza12_3.db;";
-        public Pokaz_lot()
+        public Pokaz_loty()
         {
             InitializeListView();
             WyswietlLoty();
-
-
         }
         private void InitializeListView()
         {
@@ -27,6 +25,7 @@ namespace Projekt
             listViewLoty.View = View.Details;
             listViewLoty.FullRowSelect = true;
             listViewLoty.GridLines = true;
+            listViewLoty.Font = new System.Drawing.Font("Lato", 12, System.Drawing.FontStyle.Regular);
 
             //Dodaj kolumny do kontrolki ListView
 

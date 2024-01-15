@@ -221,7 +221,7 @@
     <EmbeddedResource Include="Formularze\FormularzeUzytkownik\Moje_bilety.resx">
       <DependentUpon>Moje_bilety.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularze\FormularzeUzytkownik\Pokaz_lot.resx" />
+    <EmbeddedResource Include="Formularze\FormularzeUzytkownik\Pokaz_loty.resx" />
     <EmbeddedResource Include="Formularze\Logowanie.resx">
       <DependentUpon>Logowanie.cs</DependentUpon>
     </EmbeddedResource>

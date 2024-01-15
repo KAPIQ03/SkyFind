@@ -29,6 +29,7 @@ namespace Dashboard_Firmy.Formularze
             listViewLoty.View = View.Details;
             listViewLoty.FullRowSelect = true;
             listViewLoty.GridLines = true;
+            listViewLoty.Font = new System.Drawing.Font("Lato", 12, System.Drawing.FontStyle.Regular);
 
             //Dodaj kolumny do kontrolki ListView
 

@@ -25,8 +25,13 @@ namespace Projekt
         {
             string haslo = tbHaslo.Text;
             string login = tbLogin.Text;
+            bool walidacjaU = false;
+            int idUzytkownika = ReadDataU(haslo, login);
 
-            bool walidacjaU  = ReadDataU(haslo,login);
+            if (idUzytkownika > 0)
+            {
+                walidacjaU = true;
+            }
             bool walidacjaP = ReadDataP(haslo, login);
 
             if (walidacjaP) { 
@@ -39,7 +44,7 @@ namespace Projekt
             else if (walidacjaU)
             {
                 lbValidation.Visible = false;
-                DashboardUzytkownik dashboard = new DashboardUzytkownik(login);
+                DashboardUzytkownik dashboard = new DashboardUzytkownik(login,idUzytkownika);
                 dashboard.Show();
                 this.Close();
             }
@@ -61,12 +66,12 @@ namespace Projekt
             rejestracja.Show();
             this.Close();
         }
-        static bool ReadDataU(string haslo, string login)
+        static int ReadDataU(string haslo, string login)
         {
             using (SQLiteConnection connection = new SQLiteConnection(@"DataSource=..\..\BazaDanych\baza12_3.db;"))
             {
                 connection.Open();
-                string query = $"SELECT Login, Haslo FROM Uzytkownicy WHERE Haslo = '{haslo}' AND Login = '{login}'";
+                string query = $"SELECT Login, Haslo,IDuzytkownika FROM Uzytkownicy WHERE Haslo = '{haslo}' AND Login = '{login}'";
 
                 using (SQLiteCommand command = new SQLiteCommand(query, connection))
                 {
@@ -74,13 +79,13 @@ namespace Projekt
                     {
                         if (reader.Read())
                         {
-                            return true;
+                            return int.Parse(reader["IDuzytkownika"].ToString());
                         }
                     }
                 }
                 connection.Close();
             }
-            return false;
+            return 0;
         }
         static bool ReadDataP(string haslo, string login)
         {

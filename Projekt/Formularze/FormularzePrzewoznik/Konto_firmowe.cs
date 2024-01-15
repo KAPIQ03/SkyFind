@@ -58,6 +58,9 @@ namespace Dashboard_Firmy.Formularze
                 }
                 connection.Close();
             }
+
+            label5.Visible = true;
         }
+
     }
 }

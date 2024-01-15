@@ -20,11 +20,13 @@ namespace Projekt.Formularze
         private Panel leftBorderBtn;
         private Form currentChildForm;
 
-        string personLogin;
+        private string personLogin;
+        private int personID;
         //Constructor
-        public DashboardUzytkownik(string login)
+        public DashboardUzytkownik(string login,int idUzytkownika)
         {
             personLogin = login;
+            personID = idUzytkownika;
             InitializeComponent();
             this.Text = $"Witaj, {personLogin}";
             leftBorderBtn = new Panel();
@@ -55,8 +57,6 @@ namespace Projekt.Formularze
                 leftBorderBtn.BringToFront();
                 iconWybrany.IconChar = currentBtn.IconChar;
                 iconWybrany.IconColor = color;
-
-               
             }
         }
             private void DisableButton()
@@ -82,8 +82,8 @@ namespace Projekt.Formularze
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
-            panelDesktop.Controls.Add(childForm);
-            panelDesktop.Tag = childForm;
+            panelMain.Controls.Add(childForm);
+            panelMain.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
             panelWybraneTytul.Text = childForm.Text;
@@ -103,7 +103,7 @@ namespace Projekt.Formularze
         private void MojeB_Click(object sender, EventArgs e)
         {
             ActiveButton(sender, RGBColors.color1);
-            OpenChildForm(new Moje_bilety());
+            OpenChildForm(new Moje_bilety(personID));
         }
 
         private void pictureBoxLogo_Click(object sender, EventArgs e)

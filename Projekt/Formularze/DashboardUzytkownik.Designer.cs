@@ -45,14 +45,11 @@ namespace Projekt.Formularze
             this.MojeB = new FontAwesome.Sharp.IconButton();
             this.DaneK = new FontAwesome.Sharp.IconButton();
             this.panelMain = new System.Windows.Forms.Panel();
-            this.panelDesktop = new System.Windows.Forms.Panel();
-            this.panelShadow = new System.Windows.Forms.Panel();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.panelTytul.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconWybrany)).BeginInit();
             this.panelMenu.SuspendLayout();
-            this.panelMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // WyszukajL
@@ -265,43 +262,23 @@ namespace Projekt.Formularze
             // 
             this.panelMain.BackColor = System.Drawing.Color.White;
             this.panelMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panelMain.Controls.Add(this.panelDesktop);
-            this.panelMain.Controls.Add(this.panelShadow);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMain.Location = new System.Drawing.Point(0, 0);
+            this.panelMain.Location = new System.Drawing.Point(296, 100);
             this.panelMain.Margin = new System.Windows.Forms.Padding(4);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(1283, 675);
+            this.panelMain.Size = new System.Drawing.Size(987, 575);
             this.panelMain.TabIndex = 7;
-            // 
-            // panelDesktop
-            // 
-            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(0, 6);
-            this.panelDesktop.Margin = new System.Windows.Forms.Padding(2);
-            this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(1283, 669);
-            this.panelDesktop.TabIndex = 1;
-            // 
-            // panelShadow
-            // 
-            this.panelShadow.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelShadow.Location = new System.Drawing.Point(0, 0);
-            this.panelShadow.Margin = new System.Windows.Forms.Padding(2);
-            this.panelShadow.Name = "panelShadow";
-            this.panelShadow.Size = new System.Drawing.Size(1283, 6);
-            this.panelShadow.TabIndex = 0;
             // 
             // DashboardUzytkownik
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1283, 675);
+            this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panelTytul);
             this.Controls.Add(this.panelborderg);
             this.Controls.Add(this.panelborderld);
             this.Controls.Add(this.panelMenu);
-            this.Controls.Add(this.panelMain);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DashboardUzytkownik";
@@ -313,7 +290,6 @@ namespace Projekt.Formularze
             this.panelTytul.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconWybrany)).EndInit();
             this.panelMenu.ResumeLayout(false);
-            this.panelMain.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -333,8 +309,6 @@ namespace Projekt.Formularze
         private FontAwesome.Sharp.IconButton MojeB;
         private FontAwesome.Sharp.IconButton DaneK;
         private System.Windows.Forms.Panel panelMain;
-        private System.Windows.Forms.Panel panelDesktop;
-        private System.Windows.Forms.Panel panelShadow;
         private FontAwesome.Sharp.IconButton Wyloguj;
     }
 }

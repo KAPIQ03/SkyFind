@@ -1,6 +1,6 @@
 ﻿namespace Projekt
 {
-    partial class Pokaz_lot
+    partial class Pokaz_loty
     {
         /// <summary>
         /// Required designer variable.
@@ -31,13 +31,14 @@
         {
             this.SuspendLayout();
             // 
-            // Pokaz_lot
+            // Pokaz_loty
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1898, 975);
-            this.Name = "Pokaz_lot";
+            this.ClientSize = new System.Drawing.Size(997, 544);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "Pokaz_loty";
             this.Text = "Wyszukaj_lot";
             this.ResumeLayout(false);
 
