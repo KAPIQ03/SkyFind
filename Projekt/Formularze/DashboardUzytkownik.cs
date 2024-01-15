@@ -91,7 +91,7 @@ namespace Projekt.Formularze
         private void WyszukajL_Click(object sender, EventArgs e)
         {
             ActiveButton(sender, RGBColors.color1);
-            OpenChildForm(new Wyszukaj_lot());
+            OpenChildForm(new Pokaz_loty());
         }
 
         private void DaneK_Click(object sender, EventArgs e)
@@ -106,11 +106,6 @@ namespace Projekt.Formularze
             OpenChildForm(new Moje_bilety());
         }
 
-        private void UlubioneL_Click(object sender, EventArgs e)
-        {
-            ActiveButton(sender, RGBColors.color1);
-            OpenChildForm(new Ulubione());
-        }
         private void pictureBoxLogo_Click(object sender, EventArgs e)
         {
             Reset();

@@ -11,14 +11,15 @@ using System.Windows.Forms;
 
 namespace Projekt
 {
-    public partial class Moje_bilety : Form
+    public partial class Pokaz_lot : Form
     {
         private const string ConnectionString = @"Data Source=..\..\BazaDanych\baza12_3.db;";
-        public Moje_bilety()
+        public Pokaz_lot()
         {
-            InitializeComponent();
-            // InitializeListView();
-            //WyswietlLoty();
+            InitializeListView();
+            WyswietlLoty();
+
+
         }
         private void InitializeListView()
         {
@@ -44,8 +45,8 @@ namespace Projekt
             listViewLoty.Columns.Add("Czas Trwania Lotu", 80, HorizontalAlignment.Left);
             listViewLoty.Columns.Add("Przesiadki", 120, HorizontalAlignment.Left);
 
-
-
+            //listViewLoty.Size = new Size(990, 500);
+            listViewLoty.Dock = DockStyle.Fill;
             // Dodaj kontrolkę ListView do formularza
             this.Controls.Add(listViewLoty);
         }
@@ -88,9 +89,5 @@ namespace Projekt
                 connection.Close();
             }
         }
-
-
     }
-
-
 }

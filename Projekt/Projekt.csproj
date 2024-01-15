@@ -120,29 +120,17 @@
     <Compile Include="Formularze\FormularzeUzytkownik\Dane_konta.Designer.cs">
       <DependentUpon>Dane_konta.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularze\FormularzeUzytkownik\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularze\FormularzeUzytkownik\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formularze\FormularzeUzytkownik\Moje_bilety.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularze\FormularzeUzytkownik\Moje_bilety.Designer.cs">
       <DependentUpon>Moje_bilety.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularze\FormularzeUzytkownik\Ulubione.cs">
+    <Compile Include="Formularze\FormularzeUzytkownik\Pokaz_loty.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularze\FormularzeUzytkownik\Ulubione.Designer.cs">
-      <DependentUpon>Ulubione.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularze\FormularzeUzytkownik\Wyszukaj_lot.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularze\FormularzeUzytkownik\Wyszukaj_lot.Designer.cs">
-      <DependentUpon>Wyszukaj_lot.cs</DependentUpon>
+    <Compile Include="Formularze\FormularzeUzytkownik\Pokaz_loty.Designer.cs">
+      <DependentUpon>Pokaz_loty.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularze\Logowanie.cs">
       <SubType>Form</SubType>
@@ -218,21 +206,22 @@
     <EmbeddedResource Include="Formularze\DashboardUzytkownik.resx">
       <DependentUpon>DashboardUzytkownik.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularze\FormularzePrzewoznik\Dodaj_lot.resx">
+      <DependentUpon>Dodaj_lot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularze\FormularzePrzewoznik\Edytuj_lot.resx">
+      <DependentUpon>Edytuj_lot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularze\FormularzePrzewoznik\Usun_lot.resx">
+      <DependentUpon>Usun_lot.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularze\FormularzeUzytkownik\Dane_konta.resx">
       <DependentUpon>Dane_konta.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularze\FormularzeUzytkownik\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularze\FormularzeUzytkownik\Moje_bilety.resx">
       <DependentUpon>Moje_bilety.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularze\FormularzeUzytkownik\Ulubione.resx">
-      <DependentUpon>Ulubione.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularze\FormularzeUzytkownik\Wyszukaj_lot.resx">
-      <DependentUpon>Wyszukaj_lot.cs</DependentUpon>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Formularze\FormularzeUzytkownik\Pokaz_lot.resx" />
     <EmbeddedResource Include="Formularze\Logowanie.resx">
       <DependentUpon>Logowanie.cs</DependentUpon>
     </EmbeddedResource>
@@ -252,20 +241,11 @@
     <EmbeddedResource Include="Formularze\Rejestracja.resx">
       <DependentUpon>Rejestracja.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularze\FormularzePrzewoznik\Dodaj_lot.resx">
-      <DependentUpon>Dodaj_lot.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularze\FormularzePrzewoznik\Edytuj_lot.resx">
-      <DependentUpon>Edytuj_lot.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Formularze\FormularzePrzewoznik\Konto_firmowe.resx">
       <DependentUpon>Konto_firmowe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularze\FormularzePrzewoznik\Lista_lotow.resx">
       <DependentUpon>Lista_lotow.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularze\FormularzePrzewoznik\Usun_lot.resx">
-      <DependentUpon>Usun_lot.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularze\ResetHasla.resx">
       <DependentUpon>ResetHasla.cs</DependentUpon>
