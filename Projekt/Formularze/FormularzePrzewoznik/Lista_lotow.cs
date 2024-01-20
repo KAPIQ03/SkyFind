@@ -20,7 +20,7 @@ namespace Dashboard_Firmy.Formularze
         {
             InitializeListView();
             WyswietlLoty();
-            //InitializeComponent();
+            InitializeComponent();
         }
 
         private void InitializeListView()

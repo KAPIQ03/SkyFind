@@ -31,7 +31,6 @@ namespace Dashboard_Firmy.Formularze
                 string query = $"Delete from Loty where IDlotu = '{IdLotuNumber.Text}';";
                 using (SQLiteCommand command = new SQLiteCommand(query, connection))
                 {
-
                     command.ExecuteNonQuery();
                 }
 

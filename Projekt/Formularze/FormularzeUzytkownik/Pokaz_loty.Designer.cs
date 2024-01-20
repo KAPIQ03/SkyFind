@@ -37,9 +37,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(997, 544);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Pokaz_loty";
-            this.Text = "Wyszukaj_lot";
+            this.Text = "Lista lotów";
             this.ResumeLayout(false);
 
         }

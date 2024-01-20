@@ -128,5 +128,14 @@ namespace Projekt.Formularze
             logowanie.Show();
             this.Close();
         }
+
+        private void pictureBoxLogo_Click_1(object sender, EventArgs e)
+        {
+            if (currentChildForm != null)
+            {
+                currentChildForm.Close();
+            }
+            Reset();
+        }
     }    
 }

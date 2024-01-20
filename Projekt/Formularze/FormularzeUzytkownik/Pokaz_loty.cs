@@ -18,6 +18,7 @@ namespace Projekt
         {
             InitializeListView();
             WyswietlLoty();
+            InitializeComponent();
         }
         private void InitializeListView()
         {

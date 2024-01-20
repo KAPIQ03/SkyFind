@@ -39,17 +39,26 @@ namespace Projekt.Formularze
             this.panelWybraneTytul = new System.Windows.Forms.Label();
             this.iconWybrany = new FontAwesome.Sharp.IconPictureBox();
             this.panelborderg = new System.Windows.Forms.Panel();
-            this.panelborderld = new System.Windows.Forms.Panel();
             this.panelMenu = new System.Windows.Forms.Panel();
             this.Wyloguj = new FontAwesome.Sharp.IconButton();
             this.MojeB = new FontAwesome.Sharp.IconButton();
             this.DaneK = new FontAwesome.Sharp.IconButton();
             this.panelMain = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelborderld = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.panelTytul.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconWybrany)).BeginInit();
             this.panelMenu.SuspendLayout();
+            this.panelMain.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // WyszukajL
@@ -97,6 +106,7 @@ namespace Projekt.Formularze
             this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxLogo.TabIndex = 0;
             this.pictureBoxLogo.TabStop = false;
+            this.pictureBoxLogo.Click += new System.EventHandler(this.pictureBoxLogo_Click_1);
             // 
             // panelTytul
             // 
@@ -105,10 +115,10 @@ namespace Projekt.Formularze
             this.panelTytul.Controls.Add(this.panelWybraneTytul);
             this.panelTytul.Controls.Add(this.iconWybrany);
             this.panelTytul.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTytul.Location = new System.Drawing.Point(296, 2);
+            this.panelTytul.Location = new System.Drawing.Point(293, 2);
             this.panelTytul.Margin = new System.Windows.Forms.Padding(4);
             this.panelTytul.Name = "panelTytul";
-            this.panelTytul.Size = new System.Drawing.Size(987, 98);
+            this.panelTytul.Size = new System.Drawing.Size(990, 98);
             this.panelTytul.TabIndex = 6;
             // 
             // panelborderlm
@@ -152,21 +162,11 @@ namespace Projekt.Formularze
             // 
             this.panelborderg.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panelborderg.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelborderg.Location = new System.Drawing.Point(296, 0);
+            this.panelborderg.Location = new System.Drawing.Point(293, 0);
             this.panelborderg.Margin = new System.Windows.Forms.Padding(4);
             this.panelborderg.Name = "panelborderg";
-            this.panelborderg.Size = new System.Drawing.Size(987, 2);
+            this.panelborderg.Size = new System.Drawing.Size(990, 2);
             this.panelborderg.TabIndex = 9;
-            // 
-            // panelborderld
-            // 
-            this.panelborderld.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panelborderld.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelborderld.Location = new System.Drawing.Point(293, 0);
-            this.panelborderld.Margin = new System.Windows.Forms.Padding(4);
-            this.panelborderld.Name = "panelborderld";
-            this.panelborderld.Size = new System.Drawing.Size(3, 675);
-            this.panelborderld.TabIndex = 8;
             // 
             // panelMenu
             // 
@@ -191,7 +191,7 @@ namespace Projekt.Formularze
             this.Wyloguj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Wyloguj.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Wyloguj.ForeColor = System.Drawing.Color.Black;
-            this.Wyloguj.IconChar = FontAwesome.Sharp.IconChar.PlaneUp;
+            this.Wyloguj.IconChar = FontAwesome.Sharp.IconChar.RightToBracket;
             this.Wyloguj.IconColor = System.Drawing.Color.Orange;
             this.Wyloguj.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.Wyloguj.IconSize = 32;
@@ -262,12 +262,79 @@ namespace Projekt.Formularze
             // 
             this.panelMain.BackColor = System.Drawing.Color.White;
             this.panelMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panelMain.Controls.Add(this.panel3);
+            this.panelMain.Controls.Add(this.panel1);
+            this.panelMain.Controls.Add(this.panelborderld);
+            this.panelMain.Controls.Add(this.pictureBox1);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMain.Location = new System.Drawing.Point(296, 100);
+            this.panelMain.Location = new System.Drawing.Point(293, 100);
             this.panelMain.Margin = new System.Windows.Forms.Padding(4);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(987, 575);
+            this.panelMain.Size = new System.Drawing.Size(990, 575);
             this.panelMain.TabIndex = 7;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(3, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(987, 575);
+            this.panel1.TabIndex = 8;
+            // 
+            // panelborderld
+            // 
+            this.panelborderld.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelborderld.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelborderld.Location = new System.Drawing.Point(0, 0);
+            this.panelborderld.Margin = new System.Windows.Forms.Padding(4);
+            this.panelborderld.Name = "panelborderld";
+            this.panelborderld.Size = new System.Drawing.Size(3, 575);
+            this.panelborderld.TabIndex = 4;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Projekt.Properties.Resources.OIG_wQoiCHCAr;
+            this.pictureBox2.Location = new System.Drawing.Point(247, 72);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(351, 351);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Projekt.Properties.Resources.OIG_wQoiCHCAr;
+            this.pictureBox1.Location = new System.Drawing.Point(247, 72);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(351, 351);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(987, 2);
+            this.panel2.TabIndex = 5;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(3, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(987, 3);
+            this.panel3.TabIndex = 9;
             // 
             // DashboardUzytkownik
             // 
@@ -277,7 +344,6 @@ namespace Projekt.Formularze
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panelTytul);
             this.Controls.Add(this.panelborderg);
-            this.Controls.Add(this.panelborderld);
             this.Controls.Add(this.panelMenu);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -290,6 +356,12 @@ namespace Projekt.Formularze
             this.panelTytul.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconWybrany)).EndInit();
             this.panelMenu.ResumeLayout(false);
+            this.panelMain.ResumeLayout(false);
+            this.panelMain.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -304,11 +376,16 @@ namespace Projekt.Formularze
         private System.Windows.Forms.Label panelWybraneTytul;
         private FontAwesome.Sharp.IconPictureBox iconWybrany;
         private System.Windows.Forms.Panel panelborderg;
-        private System.Windows.Forms.Panel panelborderld;
         private System.Windows.Forms.Panel panelMenu;
         private FontAwesome.Sharp.IconButton MojeB;
         private FontAwesome.Sharp.IconButton DaneK;
         private System.Windows.Forms.Panel panelMain;
         private FontAwesome.Sharp.IconButton Wyloguj;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panelborderld;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
     }
 }

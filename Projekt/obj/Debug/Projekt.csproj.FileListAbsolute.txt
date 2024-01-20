@@ -207,4 +207,4 @@ D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.csproj.CopyComplete
 D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.exe
 D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.pdb
 D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Dashboard_Firmy.Formularze.ListaLotowForm.resources
-D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.Formularze.FormularzeUzytkownik.Pokaz_loty.resources
+D:\STUDIA\DEV\C#\Projekt\Projekt\obj\Debug\Projekt.Pokaz_loty.resources

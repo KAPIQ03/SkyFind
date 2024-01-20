@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardPrzewoznik));
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.Wyloguj = new FontAwesome.Sharp.IconButton();
+            this.UsunL = new FontAwesome.Sharp.IconButton();
+            this.EdytujL = new FontAwesome.Sharp.IconButton();
             this.DodajL = new FontAwesome.Sharp.IconButton();
             this.Listal = new FontAwesome.Sharp.IconButton();
             this.Kontof = new FontAwesome.Sharp.IconButton();
@@ -40,16 +43,16 @@
             this.panelWybraneTytul = new System.Windows.Forms.Label();
             this.iconWybrany = new FontAwesome.Sharp.IconPictureBox();
             this.panelMain = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelborderld = new System.Windows.Forms.Panel();
             this.panelborderg = new System.Windows.Forms.Panel();
-            this.EdytujL = new FontAwesome.Sharp.IconButton();
-            this.UsunL = new FontAwesome.Sharp.IconButton();
-            this.Wyloguj = new FontAwesome.Sharp.IconButton();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.panelTytul.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconWybrany)).BeginInit();
+            this.panelMain.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -68,6 +71,80 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(293, 675);
             this.panelMenu.TabIndex = 0;
+            // 
+            // Wyloguj
+            // 
+            this.Wyloguj.BackColor = System.Drawing.Color.White;
+            this.Wyloguj.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Wyloguj.FlatAppearance.BorderSize = 0;
+            this.Wyloguj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Wyloguj.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Wyloguj.ForeColor = System.Drawing.Color.Black;
+            this.Wyloguj.IconChar = FontAwesome.Sharp.IconChar.RightToBracket;
+            this.Wyloguj.IconColor = System.Drawing.Color.Orange;
+            this.Wyloguj.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.Wyloguj.IconSize = 32;
+            this.Wyloguj.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Wyloguj.Location = new System.Drawing.Point(0, 601);
+            this.Wyloguj.Name = "Wyloguj";
+            this.Wyloguj.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
+            this.Wyloguj.Size = new System.Drawing.Size(293, 74);
+            this.Wyloguj.TabIndex = 8;
+            this.Wyloguj.Text = "Wyloguj";
+            this.Wyloguj.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Wyloguj.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Wyloguj.UseVisualStyleBackColor = false;
+            this.Wyloguj.Click += new System.EventHandler(this.Wyloguj_Click);
+            // 
+            // UsunL
+            // 
+            this.UsunL.BackColor = System.Drawing.Color.White;
+            this.UsunL.Dock = System.Windows.Forms.DockStyle.Top;
+            this.UsunL.FlatAppearance.BorderSize = 0;
+            this.UsunL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.UsunL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.UsunL.ForeColor = System.Drawing.Color.Black;
+            this.UsunL.IconChar = FontAwesome.Sharp.IconChar.PlaneCircleXmark;
+            this.UsunL.IconColor = System.Drawing.Color.Orange;
+            this.UsunL.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.UsunL.IconSize = 32;
+            this.UsunL.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.UsunL.Location = new System.Drawing.Point(0, 466);
+            this.UsunL.Margin = new System.Windows.Forms.Padding(4);
+            this.UsunL.Name = "UsunL";
+            this.UsunL.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
+            this.UsunL.Size = new System.Drawing.Size(293, 72);
+            this.UsunL.TabIndex = 7;
+            this.UsunL.Text = "Usuń lot";
+            this.UsunL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.UsunL.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.UsunL.UseVisualStyleBackColor = false;
+            this.UsunL.Click += new System.EventHandler(this.iconButton1_Click);
+            // 
+            // EdytujL
+            // 
+            this.EdytujL.BackColor = System.Drawing.Color.White;
+            this.EdytujL.Dock = System.Windows.Forms.DockStyle.Top;
+            this.EdytujL.FlatAppearance.BorderSize = 0;
+            this.EdytujL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EdytujL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.EdytujL.ForeColor = System.Drawing.Color.Black;
+            this.EdytujL.IconChar = FontAwesome.Sharp.IconChar.PlaneCircleExclamation;
+            this.EdytujL.IconColor = System.Drawing.Color.Orange;
+            this.EdytujL.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.EdytujL.IconSize = 32;
+            this.EdytujL.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.EdytujL.Location = new System.Drawing.Point(0, 394);
+            this.EdytujL.Margin = new System.Windows.Forms.Padding(4);
+            this.EdytujL.Name = "EdytujL";
+            this.EdytujL.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
+            this.EdytujL.Size = new System.Drawing.Size(293, 72);
+            this.EdytujL.TabIndex = 6;
+            this.EdytujL.Text = "Edytuj lot";
+            this.EdytujL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.EdytujL.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.EdytujL.UseVisualStyleBackColor = false;
+            this.EdytujL.Click += new System.EventHandler(this.Edytujl_Click_1);
             // 
             // DodajL
             // 
@@ -220,12 +297,23 @@
             // 
             this.panelMain.BackColor = System.Drawing.Color.White;
             this.panelMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panelMain.Controls.Add(this.pictureBox1);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Location = new System.Drawing.Point(293, 98);
             this.panelMain.Margin = new System.Windows.Forms.Padding(4);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(990, 577);
             this.panelMain.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Projekt.Properties.Resources.OIG_wQoiCHCAr;
+            this.pictureBox1.Location = new System.Drawing.Point(253, 71);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(351, 351);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // panelborderld
             // 
@@ -244,82 +332,8 @@
             this.panelborderg.Location = new System.Drawing.Point(296, 98);
             this.panelborderg.Margin = new System.Windows.Forms.Padding(4);
             this.panelborderg.Name = "panelborderg";
-            this.panelborderg.Size = new System.Drawing.Size(987, 2);
+            this.panelborderg.Size = new System.Drawing.Size(987, 3);
             this.panelborderg.TabIndex = 4;
-            // 
-            // EdytujL
-            // 
-            this.EdytujL.BackColor = System.Drawing.Color.White;
-            this.EdytujL.Dock = System.Windows.Forms.DockStyle.Top;
-            this.EdytujL.FlatAppearance.BorderSize = 0;
-            this.EdytujL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EdytujL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.EdytujL.ForeColor = System.Drawing.Color.Black;
-            this.EdytujL.IconChar = FontAwesome.Sharp.IconChar.PlaneCircleExclamation;
-            this.EdytujL.IconColor = System.Drawing.Color.Orange;
-            this.EdytujL.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.EdytujL.IconSize = 32;
-            this.EdytujL.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.EdytujL.Location = new System.Drawing.Point(0, 394);
-            this.EdytujL.Margin = new System.Windows.Forms.Padding(4);
-            this.EdytujL.Name = "EdytujL";
-            this.EdytujL.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
-            this.EdytujL.Size = new System.Drawing.Size(293, 72);
-            this.EdytujL.TabIndex = 6;
-            this.EdytujL.Text = "Edytuj lot";
-            this.EdytujL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.EdytujL.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.EdytujL.UseVisualStyleBackColor = false;
-            this.EdytujL.Click += new System.EventHandler(this.Edytujl_Click_1);
-            // 
-            // UsunL
-            // 
-            this.UsunL.BackColor = System.Drawing.Color.White;
-            this.UsunL.Dock = System.Windows.Forms.DockStyle.Top;
-            this.UsunL.FlatAppearance.BorderSize = 0;
-            this.UsunL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.UsunL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.UsunL.ForeColor = System.Drawing.Color.Black;
-            this.UsunL.IconChar = FontAwesome.Sharp.IconChar.PlaneCircleXmark;
-            this.UsunL.IconColor = System.Drawing.Color.Orange;
-            this.UsunL.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.UsunL.IconSize = 32;
-            this.UsunL.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.UsunL.Location = new System.Drawing.Point(0, 466);
-            this.UsunL.Margin = new System.Windows.Forms.Padding(4);
-            this.UsunL.Name = "UsunL";
-            this.UsunL.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
-            this.UsunL.Size = new System.Drawing.Size(293, 72);
-            this.UsunL.TabIndex = 7;
-            this.UsunL.Text = "Usuń lot";
-            this.UsunL.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.UsunL.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.UsunL.UseVisualStyleBackColor = false;
-            this.UsunL.Click += new System.EventHandler(this.iconButton1_Click);
-            // 
-            // Wyloguj
-            // 
-            this.Wyloguj.BackColor = System.Drawing.Color.White;
-            this.Wyloguj.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Wyloguj.FlatAppearance.BorderSize = 0;
-            this.Wyloguj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Wyloguj.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Wyloguj.ForeColor = System.Drawing.Color.Black;
-            this.Wyloguj.IconChar = FontAwesome.Sharp.IconChar.RightToBracket;
-            this.Wyloguj.IconColor = System.Drawing.Color.Orange;
-            this.Wyloguj.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.Wyloguj.IconSize = 32;
-            this.Wyloguj.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Wyloguj.Location = new System.Drawing.Point(0, 601);
-            this.Wyloguj.Name = "Wyloguj";
-            this.Wyloguj.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
-            this.Wyloguj.Size = new System.Drawing.Size(293, 74);
-            this.Wyloguj.TabIndex = 8;
-            this.Wyloguj.Text = "Wyloguj";
-            this.Wyloguj.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Wyloguj.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Wyloguj.UseVisualStyleBackColor = false;
-            this.Wyloguj.Click += new System.EventHandler(this.Wyloguj_Click);
             // 
             // DashboardPrzewoznik
             // 
@@ -342,6 +356,9 @@
             this.panelTytul.ResumeLayout(false);
             this.panelTytul.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconWybrany)).EndInit();
+            this.panelMain.ResumeLayout(false);
+            this.panelMain.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -359,11 +376,12 @@
         private System.Windows.Forms.Label panelWybraneTytul;
         private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Panel panelborderld;
-        private System.Windows.Forms.Panel panelborderg;
         private System.Windows.Forms.Panel panelborderlm;
         private FontAwesome.Sharp.IconButton Wyloguj;
         private FontAwesome.Sharp.IconButton UsunL;
         private FontAwesome.Sharp.IconButton EdytujL;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panelborderg;
     }
 }
 

@@ -103,10 +103,34 @@ namespace Projekt
             WyswietlLoty();
             if (idLotu.Value != 0)
             {
-                lbDodano.Visible = true;
+                lbAkcja.Text = "Pomyślnie dodano bilet";
+                lbAkcja.ForeColor = Color.Black;
+                lbAkcja.Visible = true;
+            }
+        }
+
+        private void btnUsun_Click(object sender, EventArgs e)
+        {
+            using (SQLiteConnection connection = new SQLiteConnection(ConnectionString))
+            {
+                connection.Open();
+
+                string query = $"Delete FROM Bilety WHERE IDlotu = '{idLotu.Value}' AND IDuzytkownika = '{personID}' ;";
+
+                using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                {
+                    command.ExecuteNonQuery();
+                }
+                connection.Close();
+            }
+            listViewLoty.Items.Clear();
+            WyswietlLoty();
+            if (idLotu.Value != 0)
+            {
+                lbAkcja.Text = "Pomyślnie usunięto bilet";
+                lbAkcja.ForeColor = Color.Black;
+                lbAkcja.Visible = true;
             }
         }
     }
-
-
 }

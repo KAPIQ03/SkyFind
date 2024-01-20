@@ -398,12 +398,12 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(16, 501);
+            this.label17.Location = new System.Drawing.Point(16, 489);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(457, 32);
+            this.label17.Size = new System.Drawing.Size(465, 32);
             this.label17.TabIndex = 98;
-            this.label17.Text = "Uwaga:\r\nData powinn być podana według formatu: Rok-Miesiąc-Dzien np.2024-01-01";
+            this.label17.Text = "Uwaga:\r\nData powinna być podana według formatu: Rok-Miesiąc-Dzien np.2024-01-01";
             // 
             // label4
             // 
